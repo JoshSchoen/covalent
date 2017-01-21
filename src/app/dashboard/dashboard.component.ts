@@ -4,7 +4,7 @@ import { Title }     from '@angular/platform-browser';
 
 import { TdLoadingService } from '@covalent/core';
 
-import { ItemsService, UsersService, ProductsService, AlertsService } from '../../services';
+import { ItemsService, UsersService, ProductsService, AlertsService, BargraphService } from '../../services';
 
 import { single, multi } from './data';
 
@@ -12,7 +12,7 @@ import { single, multi } from './data';
   selector: 'covalent-dashboard',
   templateUrl: './dashboard.component.html',
   styleUrls: ['./dashboard.component.scss'],
-  viewProviders: [ ItemsService, UsersService, ProductsService, AlertsService ],
+  viewProviders: [ ItemsService, UsersService, ProductsService, AlertsService, BargraphService ],
 })
 export class DashboardComponent implements AfterViewInit {
 
@@ -20,6 +20,44 @@ export class DashboardComponent implements AfterViewInit {
   users: Object[];
   products: Object[];
   alerts: Object[];
+  barg: any[];
+  jsonData: any = [{
+    "x": "Jan",
+    "y": 70
+  }, {
+    "x": "Feb",
+    "y": 190
+  }, {
+    "x": "Mar",
+    "y": 220
+  }, {
+    "x": "Apr",
+    "y": 160
+  }, {
+    "x": "May",
+    "y": 240
+  }, {
+    "x": "Jun",
+    "y": 70
+  }, {
+    "x": "Jul",
+    "y": 190
+  }, {
+    "x": "Aug",
+    "y": 210
+  }, {
+    "x": "Sep",
+    "y": 150
+  }, {
+    "x": "Oct",
+    "y": 170
+  }, {
+    "x": "Nov",
+    "y": 150
+  }, {
+    "x": "Dec",
+    "y": 260
+  }];
 
   // Chart
   single: any[];
@@ -50,7 +88,8 @@ export class DashboardComponent implements AfterViewInit {
               private _usersService: UsersService,
               private _alertsService: AlertsService,
               private _productsService: ProductsService,
-              private _loadingService: TdLoadingService,) {
+              private _loadingService: TdLoadingService,
+              private _bargraphService: BargraphService,) {
                 // Chart
                 this.multi = multi.map(group => {
                   group.series = group.series.map(dataItem => {
@@ -62,7 +101,7 @@ export class DashboardComponent implements AfterViewInit {
   }
 
   ngAfterViewInit(): void {
-    this._titleService.setTitle( 'Covalent Quickstart' );
+    this._titleService.setTitle( 'Covalent Dashboard' );
 
     this._loadingService.register('items.load');
     this._itemsService.query().subscribe((items: Object[]) => {
@@ -78,6 +117,18 @@ export class DashboardComponent implements AfterViewInit {
         }, 750);
       });
     });
+    this._loadingService.register('barg.load');
+    this._bargraphService.query().subscribe((barg: any) => {
+      this.barg = barg;
+      console.log(barg);
+
+      setTimeout(() => {
+        this._loadingService.resolve('barg.load');
+      }, 750);
+    }, (error: Error) => {
+      console.log('error');
+    });
+
     this._loadingService.register('alerts.load');
     this._alertsService.query().subscribe((alerts: Object[]) => {
       this.alerts = alerts;

@@ -22,10 +22,12 @@
         <div flex-gt-xs="50">
             <md-card>
                 <md-card-title>Ingest Usage</md-card-title>
-                <td-charts [shadow]="true"
+                <td-charts
+                        [margin]="{left:90}"
+                        [shadow]="true"
                         fillOpacity="0.95">
                     <td-axis-x [link]="chartBar1" [ticks]="true" [show]="true" [grid]="false"></td-axis-x>
-                    <td-axis-y-right [link]="chartBar1" [show]="true" [grid]="true"></td-axis-y-right>
+                    <td-axis-y-left [link]="chartBar1" [show]="true" legend="Sales" [grid]="true"></td-axis-y-left>
                     <td-chart-bar #chartBar1 [colors]="['blue', 'deepOrange']"
                         [data]="jsonData"
                         [padding]="0.25"
@@ -88,6 +90,6 @@
         </div>
     </div>
 </div>
-<a md-fab color="accent" class="md-fab-position-bottom-right" [routerLink]="['/form']"> 
+<a md-fab color="accent" class="md-fab-position-bottom-right" [routerLink]="['/form']">
     <md-icon>add</md-icon>
 </a>

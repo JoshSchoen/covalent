@@ -17,6 +17,7 @@ import { TemplatesComponent } from './templates/templates.component';
 import { DashboardTemplateComponent } from './templates/dashboard/dashboard.component';
 import { EmailTemplateComponent } from './templates/email/email.component';
 import { EditorTemplateComponent } from './templates/editor/editor.component';
+import { DemoComponent } from './demo/demo.component';
 
 const routes: Routes = [
   {path: 'login', component: LoginComponent},
@@ -34,6 +35,7 @@ const routes: Routes = [
         {path: ':id/edit', component: FeaturesFormComponent},
       ]},
     ]},
+    {path: 'demo', component: DemoComponent},
     {path: 'item/:id', component: DetailComponent},
     {path: 'logs', component: LogsComponent},
     {path: 'form', component: FormComponent},
