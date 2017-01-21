@@ -5,52 +5,59 @@
     <a md-icon-button mdTooltip="Docs" href="https://teradata.github.io/covalent/" target="_blank"><md-icon>chrome_reader_mode</md-icon></a>
     <a md-icon-button mdTooltip="Github" href="https://github.com/teradata/covalent" target="_blank"><md-icon svgIcon="assets:github"></md-icon></a>
   </div>
-  <div class="md-content" flex md-scroll-y>
-    <div layout="column" layout-gt-sm="row" class="inset">
-      <div flex-gt-sm="60">
-        <div layout="column">
+  <div class="md-content" class="inset">
+      <div layout="column" layout-gt-xs="row">
+        <div flex-gt-xs="60">
           <md-card>
             <md-card-title>Combo Bar Chart</md-card-title>
             <md-card-subtitle>Sales 1 vs Sales 2</md-card-subtitle>
             <md-divider></md-divider>
             <div style="height:400px;">
-
+<td-charts>
+  <td-chart-line #chartLine3 dataSrc="data/data.tsv"
+               bottomAxis="col1"
+               [columns]="['col2', 'col3','col4']"
+               [titles]="['New York','San Francisco', 'Austin']"
+               [colors]="['#304FFE', '#00B8D4', '#FF3D00']"
+               [transition]="true"
+               transitionDuration="1000"
+               transitionDelay="2000">
+               <td-axis-y-left [link]="chartLine3" [ticks]="true" [show]="true" [grid]="true" legend="Sales Line"></td-axis-y-left>
+  </td-chart-line>
+</td-charts>
             </div>
           </md-card>
-        </div>
-      </div>
     </div>
-    <div layout="row">
-      <div flex-gt-sm="60">
-        <div layout="column">
-          <md-card>
-            <md-card-title>Sales by Sales Person</md-card-title>
-            <md-card-subtitle>Top 5</md-card-subtitle>
-            <div layout="row" layout-align="start center" class="pad-left-sm pad-right-sm">
-            <span *ngIf="!searchBox.searchVisible" class="push-left-sm">
-              <span class="md-title">Title here</span>
-            </span>
-            <span *ngIf="!searchBox.searchVisible" class="push-left-sm">
-              <span *ngIf="(selectable &amp;&amp; !selectedRows.length) || !selectable" class="md-title">Title here</span>
-              <span *ngIf="selectedRows.length &amp;&amp; selectable" class="md-body-1">0 item(s) selected</span>
-            </span>
-            <td-search-box #searchBox backIcon="arrow_back" class="push-right-sm" placeholder="Search here" (searchDebounce)="search($event)" flex>
-            </td-search-box>
-          </div>
-          <md-divider></md-divider>
-          <td-data-table
-            [data]="salesPerson"
-            [columns]="columns"
-            [sortable]="true"
-            [sortBy]="sortBy"
-            [sortOrder]="sortOrder"
-            (sortChange)="sort($event)">
-          </td-data-table>
-          <td-paging-bar [pageSizes]="[5, 10, 15, 20]" [total]="filteredTotal" (change)="page($event)"></td-paging-bar>
-          </md-card>
-        </div>
-      </div>
+    <div flex-gt-xs="40">
+      <md-card>
+        <geo-pane></geo-pane>
+      </md-card>
     </div>
+    </div>
+    <div layout="column" layout-gt-sm="row">
+    <div flex-gt-sm="100">
+        <md-card>
+        <div layout="row" layout-align="start center" class="pad-left-sm pad-right-sm">
+          <span *ngIf="!searchBox.searchVisible" class="push-left-sm">
+            <span class="md-title">Manger Sales</span>
+          </span>
+          <td-search-box #searchBox backIcon="arrow_back" class="push-right-sm" placeholder="Search here" (searchDebounce)="search($event)" flex>
+          </td-search-box>
+        </div>
+        <md-divider></md-divider>
+        <td-data-table
+          [data]="filteredData"
+          [columns]="columns"
+          [sortable]="true"
+          [sortBy]="sales"
+          [selectable]=false
+          [sortOrder]="sortOrder"
+          (sortChange)="sort($event)">
+        </td-data-table>
+        <td-paging-bar [pageSizes]="[5, 10, 15, 20]" [total]="filteredTotal" (change)="page($event)"></td-paging-bar>
+      </md-card>
+    </div>
+  </div>
   </div>
 
 <td-layout-footer>

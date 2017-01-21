@@ -10,11 +10,11 @@ export class MainComponent {
 
   routes: Object[] = [{
     title: 'Demo Dashboard',
-    route: '/demo',
+    route: '/',
     icon: 'dashboard',
   }, {
     title: 'Dashboard',
-    route: '/',
+    route: '/overview',
     icon: 'dashboard',
   }, {
       title: 'Product Dashboard',
@@ -36,7 +36,8 @@ export class MainComponent {
   ];
 
   constructor(private _router: Router) {}
-
+  firstname : String = 'Josh';
+  lastname : String = 'Schoen';
   logout(): void {
     this._router.navigate(['/login']);
   }

@@ -1,5 +1,7 @@
-import { NgModule, Type } from '@angular/core';
+import { NgModule, Type} from '@angular/core';
 import { BrowserModule, Title }  from '@angular/platform-browser';
+import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 
 import { CovalentCoreModule } from '@covalent/core';
 import { CovalentHttpModule, IHttpInterceptor } from '@covalent/http';
@@ -28,11 +30,14 @@ import { EmailTemplateComponent } from './templates/email/email.component';
 import { EditorTemplateComponent } from './templates/editor/editor.component';
 import { appRoutes, appRoutingProviders } from './app.routes';
 
+import { AgmCoreModule } from 'angular2-google-maps/core';
+
 import { ChartComponent } from '../components/chart/chart.component';
 
 import { RequestInterceptor } from '../config/interceptors/request.interceptor';
 
 import { NgxChartsModule } from '@swimlane/ngx-charts';
+import { GoogleMap } from './geo/geo.component';
 
 const httpInterceptorProviders: Type<IHttpInterceptor>[] = [
   RequestInterceptor,
@@ -60,6 +65,7 @@ const httpInterceptorProviders: Type<IHttpInterceptor>[] = [
     EmailTemplateComponent,
     EditorTemplateComponent,
     DemoComponent,
+    GoogleMap,
   ], // directives, components, and pipes owned by this NgModule
   imports: [
     BrowserModule,
@@ -74,6 +80,11 @@ const httpInterceptorProviders: Type<IHttpInterceptor>[] = [
     CovalentMarkdownModule.forRoot(),
     appRoutes,
     NgxChartsModule,
+    CommonModule,
+    FormsModule,
+    AgmCoreModule.forRoot({
+  apiKey: 'AIzaSyD1kXfJRlIGWLr4yxBPXIiZ_hkhhXYGSgw'
+})
   ], // modules needed to run this module
   providers: [
     appRoutingProviders,

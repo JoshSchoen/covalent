@@ -22,8 +22,7 @@ import { DemoComponent } from './demo/demo.component';
 const routes: Routes = [
   {path: 'login', component: LoginComponent},
   {path: '', component: MainComponent, children: [{
-      component: DashboardComponent,
-      path: '',
+      path: 'overview', component: DashboardComponent
     },
     {path: 'product', component: DashboardProductComponent, children: [
       {path: '', component: ProductOverviewComponent},
@@ -35,7 +34,7 @@ const routes: Routes = [
         {path: ':id/edit', component: FeaturesFormComponent},
       ]},
     ]},
-    {path: 'demo', component: DemoComponent},
+    {component: DemoComponent, path: '',},
     {path: 'item/:id', component: DetailComponent},
     {path: 'logs', component: LogsComponent},
     {path: 'form', component: FormComponent},

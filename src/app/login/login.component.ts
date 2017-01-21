@@ -10,8 +10,8 @@ import { TdLoadingService } from '@covalent/core';
 })
 export class LoginComponent {
 
-  username: string;
-  password: string;
+  username: string = 'Josh';
+  password: string = 'Schoen';
 
   constructor(private _router: Router,
               private _loadingService: TdLoadingService) {}

@@ -4,8 +4,7 @@
     "id" : "suzy.cuningham",
     "sales" : "100,000",
     "email" : "suzy.cuningham@gmail.com",
-    "created" : "10/01/2015 11:05 AM",
-    "last_access" : "12/23/2015 11:05 AM",
+    "region" : "Midwest",
     "site_admin": true
   },
   {
@@ -13,8 +12,7 @@
     "id" : "bobbyD",
     "sales" : "60,000",
     "email" : "bobbyD@outlook.com",
-    "created" : "10/01/2015 11:05 AM",
-    "last_access" : "12/23/2015 11:05 AM",
+    "region" : "North East",
     "site_admin": false
   },
   {
@@ -22,8 +20,7 @@
     "id" : "johnnyWalker",
     "sales" : "40,000",
     "email" : "johnnyWalker@blue.com",
-    "created" : "10/01/2015 11:05 AM",
-    "last_access" : "12/23/2015 11:05 AM",
+    "region" : "Southwest",
     "site_admin": false
   },
   {
@@ -31,8 +28,7 @@
      "id" : "eStevens",
      "sales" : "23,000",
      "email" : "eStevens@yahoo.com",
-     "created" : "10/01/2015 11:05 AM",
-     "last_access" : "12/23/2015 11:05 AM",
+     "region" : "Northeast",
      "site_admin": false
   },
   {
@@ -40,8 +36,127 @@
      "id" : "jDubz",
      "sales" : "124,000",
      "email" : "jDubz@msn.com",
-     "created" : "10/01/2015 11:05 AM",
-     "last_access" : "12/23/2015 11:05 AM",
+     "region" : "Southeast",
+     "site_admin": false
+  },
+  {
+    "display_name" : "Suzy Cuningham",
+    "id" : "suzy.cuningham",
+    "sales" : "100,000",
+    "email" : "suzy.cuningham@gmail.com",
+    "region" : "Midwest",
+    "site_admin": true
+  },
+  {
+    "display_name" : "Bobby Daniels",
+    "id" : "bobbyD",
+    "sales" : "60,000",
+    "email" : "bobbyD@outlook.com",
+    "region" : "North East",
+    "site_admin": false
+  },
+  {
+    "display_name" : "John Walker",
+    "id" : "johnnyWalker",
+    "sales" : "40,000",
+    "email" : "johnnyWalker@blue.com",
+    "region" : "Southwest",
+    "site_admin": false
+  },
+  {
+     "display_name" : "Eddy Stevens",
+     "id" : "eStevens",
+     "sales" : "23,000",
+     "email" : "eStevens@yahoo.com",
+     "region" : "Northeast",
+     "site_admin": false
+  },
+  {
+     "display_name" : "Jan Williams",
+     "id" : "jDubz",
+     "sales" : "124,000",
+     "email" : "jDubz@msn.com",
+     "region" : "Southeast",
+     "site_admin": false
+  },
+  {
+    "display_name" : "Suzy Cuningham",
+    "id" : "suzy.cuningham",
+    "sales" : "100,000",
+    "email" : "suzy.cuningham@gmail.com",
+    "region" : "Midwest",
+    "site_admin": true
+  },
+  {
+    "display_name" : "Bobby Daniels",
+    "id" : "bobbyD",
+    "sales" : "60,000",
+    "email" : "bobbyD@outlook.com",
+    "region" : "North East",
+    "site_admin": false
+  },
+  {
+    "display_name" : "John Walker",
+    "id" : "johnnyWalker",
+    "sales" : "40,000",
+    "email" : "johnnyWalker@blue.com",
+    "region" : "Southwest",
+    "site_admin": false
+  },
+  {
+     "display_name" : "Eddy Stevens",
+     "id" : "eStevens",
+     "sales" : "23,000",
+     "email" : "eStevens@yahoo.com",
+     "region" : "Northeast",
+     "site_admin": false
+  },
+  {
+     "display_name" : "Jan Williams",
+     "id" : "jDubz",
+     "sales" : "124,000",
+     "email" : "jDubz@msn.com",
+     "region" : "Southeast",
+     "site_admin": false
+  },
+  {
+    "display_name" : "Suzy Cuningham",
+    "id" : "suzy.cuningham",
+    "sales" : "100,000",
+    "email" : "suzy.cuningham@gmail.com",
+    "region" : "Midwest",
+    "site_admin": true
+  },
+  {
+    "display_name" : "Bobby Daniels",
+    "id" : "bobbyD",
+    "sales" : "60,000",
+    "email" : "bobbyD@outlook.com",
+    "region" : "North East",
+    "site_admin": false
+  },
+  {
+    "display_name" : "John Walker",
+    "id" : "johnnyWalker",
+    "sales" : "40,000",
+    "email" : "johnnyWalker@blue.com",
+    "region" : "Southwest",
+    "site_admin": false
+  },
+  {
+     "display_name" : "Eddy Stevens",
+     "id" : "eStevens",
+     "sales" : "23,000",
+     "email" : "eStevens@yahoo.com",
+     "region" : "Northeast",
+     "site_admin": false
+  },
+  {
+     "display_name" : "Jan Williams",
+     "id" : "jDubz",
+     "sales" : "124,000",
+     "email" : "jDubz@msn.com",
+     "region" : "Southeast",
      "site_admin": false
   }
 ]
