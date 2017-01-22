@@ -1,482 +1,3026 @@
 [
   {
-    "display_name": "Byrd Oneill",
-    "id": "db546bd8-cd13-42a3-a648-aaad067ebeee",
-    "picture": "http://placehold.it/100x100",
-    "title": "NON",
-    "sales": "$317,562.75",
-    "email": "byrdoneill@strozen.com",
-    "region": "Michigan",
-    "lat": 39.085716,
-    "lng": -72.212841,
-    "site_admin": false
+    "total_monthly_sales": [
+      {
+        "label": "jan",
+        "sales": 431742.57,
+        "margin": 0.28
+      },
+      {
+        "label": "feb",
+        "sales": 540164.33,
+        "margin": 0.38
+      },
+      {
+        "label": "mar",
+        "sales": 625675.83,
+        "margin": 0.07
+      },
+      {
+        "label": "apr",
+        "sales": 583686.79,
+        "margin": 0.32
+      },
+      {
+        "label": "may",
+        "sales": 482767.13,
+        "margin": 0.28
+      },
+      {
+        "label": "jun",
+        "sales": 466579.3,
+        "margin": 0.09
+      },
+      {
+        "label": "july",
+        "sales": 414995.84,
+        "margin": 0.23
+      },
+      {
+        "label": "aug",
+        "sales": 677844.25,
+        "margin": 0.43
+      },
+      {
+        "label": "sept",
+        "sales": 504764.31,
+        "margin": 0.08
+      },
+      {
+        "label": "oct",
+        "sales": 493825.46,
+        "margin": 0.44
+      },
+      {
+        "label": "nov",
+        "sales": 616150.63,
+        "margin": 0.33
+      },
+      {
+        "label": "dec",
+        "sales": 653582.86,
+        "margin": 0.09
+      }
+    ]
   },
   {
-    "display_name": "Lucile Mullen",
-    "id": "e442ca8d-ff09-4d81-ac93-0bd01fb4b2f1",
-    "picture": "http://placehold.it/100x100",
-    "title": "DOLORE",
-    "sales": "$218,970.80",
-    "email": "lucilemullen@strozen.com",
-    "region": "New Hampshire",
-    "lat": 42.066946,
-    "lng": -86.552576,
-    "site_admin": true
-  },
-  {
-    "display_name": "Katy Schultz",
-    "id": "0669072a-007a-4a43-b9b6-bb2b5efcb995",
-    "picture": "http://placehold.it/100x100",
-    "title": "MINIM",
-    "sales": "$149,816.20",
-    "email": "katyschultz@strozen.com",
-    "region": "Palau",
-    "lat": 31.057616,
-    "lng": -118.698642,
-    "site_admin": false
-  },
-  {
-    "display_name": "Oneil Ortiz",
-    "id": "6fc6c3eb-e7a4-42a0-9070-ad977ddcfd1a",
-    "picture": "http://placehold.it/100x100",
-    "title": "AD",
-    "sales": "$101,971.82",
-    "email": "oneilortiz@strozen.com",
-    "region": "Wisconsin",
-    "lat": 30.891469,
-    "lng": -113.21135,
-    "site_admin": false
-  },
-  {
-    "display_name": "Garza Walker",
-    "id": "95d1394d-0f29-41de-96bc-d2b5a3b584db",
-    "picture": "http://placehold.it/100x100",
-    "title": "EIUSMOD",
-    "sales": "$337,703.07",
-    "email": "garzawalker@strozen.com",
-    "region": "Iowa",
-    "lat": 39.153442,
-    "lng": -101.486317,
-    "site_admin": false
-  },
-  {
-    "display_name": "Hunt Levine",
-    "id": "fc291cba-c0d5-4119-8a2e-d21e6eed1924",
-    "picture": "http://placehold.it/100x100",
-    "title": "DOLORE",
-    "sales": "$238,118.08",
-    "email": "huntlevine@strozen.com",
-    "region": "Puerto Rico",
-    "lat": 35.767227,
-    "lng": -79.889423,
-    "site_admin": true
-  },
-  {
-    "display_name": "Amy Vargas",
-    "id": "0a8ab533-3d43-4495-904f-adc014abfbcb",
-    "picture": "http://placehold.it/100x100",
-    "title": "VOLUPTATE",
-    "sales": "$371,668.61",
-    "email": "amyvargas@strozen.com",
-    "region": "Hawaii",
-    "lat": 35.236046,
-    "lng": -88.869622,
-    "site_admin": true
-  },
-  {
-    "display_name": "Debora Burton",
-    "id": "397f591f-fb9e-4b0b-8889-1f7ed9edac13",
-    "picture": "http://placehold.it/100x100",
-    "title": "DUIS",
-    "sales": "$200,438.31",
-    "email": "deboraburton@strozen.com",
-    "region": "Tennessee",
-    "lat": 34.59414,
-    "lng": -119.35832,
-    "site_admin": true
-  },
-  {
-    "display_name": "Scott Paul",
-    "id": "10de5a95-e526-4fdc-9e75-3de83990e35b",
-    "picture": "http://placehold.it/100x100",
-    "title": "IRURE",
-    "sales": "$132,147.84",
-    "email": "scottpaul@strozen.com",
-    "region": "Virginia",
-    "lat": 44.025211,
-    "lng": -70.495867,
-    "site_admin": false
-  },
-  {
-    "display_name": "Howe Blair",
-    "id": "8abd0a0d-b37d-483f-9262-54c5311329f2",
+    "display_name": "Camille Hoffman",
+    "id": "65f3c13b-e55a-4b98-b676-0cd3b3d84eb2",
     "picture": "http://placehold.it/100x100",
     "title": "NOSTRUD",
-    "sales": "$239,218.22",
-    "email": "howeblair@strozen.com",
-    "region": "Illinois",
-    "lat": 31.980128,
-    "lng": -80.023899,
-    "site_admin": false
-  },
-  {
-    "display_name": "Ingram Kirby",
-    "id": "0a1f4f0e-9cbc-41b7-a8a6-5e0957c17af9",
-    "picture": "http://placehold.it/100x100",
-    "title": "CILLUM",
-    "sales": "$103,301.38",
-    "email": "ingramkirby@strozen.com",
-    "region": "Colorado",
-    "lat": 41.217277,
-    "lng": -101.410496,
+    "sales": 139245.48,
+    "monthly_sales": [
+      {
+        "label": "jan",
+        "sales": 14470.77,
+        "margin": 0.44
+      },
+      {
+        "label": "feb",
+        "sales": 9114.82,
+        "margin": 0.12
+      },
+      {
+        "label": "mar",
+        "sales": 15142.03,
+        "margin": 0.15
+      },
+      {
+        "label": "apr",
+        "sales": 28661.36,
+        "margin": 0.07
+      },
+      {
+        "label": "may",
+        "sales": 30140.42,
+        "margin": 0.13
+      },
+      {
+        "label": "jun",
+        "sales": 32953.03,
+        "margin": 0.11
+      },
+      {
+        "label": "july",
+        "sales": 10417.73,
+        "margin": 0.16
+      },
+      {
+        "label": "aug",
+        "sales": 21116.36,
+        "margin": 0.45
+      },
+      {
+        "label": "sept",
+        "sales": 26372.88,
+        "margin": 0.46
+      },
+      {
+        "label": "oct",
+        "sales": 27024.55,
+        "margin": 0.39
+      },
+      {
+        "label": "nov",
+        "sales": 14439.95,
+        "margin": 0.4
+      },
+      {
+        "label": "dec",
+        "sales": 17208.89,
+        "margin": 0.09
+      }
+    ],
+    "email": "camillehoffman@farmex.com",
+    "region": "Georgia",
+    "lat": 39.164903,
+    "lng": -94.935236,
     "site_admin": true
   },
   {
-    "display_name": "Malinda Saunders",
-    "id": "d774031a-f373-480b-ad34-4477d6e31c0c",
+    "display_name": "Shanna Merrill",
+    "id": "7e4f2556-0ac4-4701-aaee-a740d976030f",
     "picture": "http://placehold.it/100x100",
-    "title": "TEMPOR",
-    "sales": "$244,618.77",
-    "email": "malindasaunders@strozen.com",
-    "region": "American Samoa",
-    "lat": 42.308382,
-    "lng": -113.344075,
+    "title": "ANIM",
+    "sales": 160888.26,
+    "monthly_sales": [
+      {
+        "label": "jan",
+        "sales": 20746.79,
+        "margin": 0.34
+      },
+      {
+        "label": "feb",
+        "sales": 8994.84,
+        "margin": 0.03
+      },
+      {
+        "label": "mar",
+        "sales": 25279.8,
+        "margin": 0.12
+      },
+      {
+        "label": "apr",
+        "sales": 35311.54,
+        "margin": 0.08
+      },
+      {
+        "label": "may",
+        "sales": 20494.17,
+        "margin": 0.2
+      },
+      {
+        "label": "jun",
+        "sales": 37421.77,
+        "margin": 0.12
+      },
+      {
+        "label": "july",
+        "sales": 31205.28,
+        "margin": 0.03
+      },
+      {
+        "label": "aug",
+        "sales": 30679.5,
+        "margin": 0.21
+      },
+      {
+        "label": "sept",
+        "sales": 13673.35,
+        "margin": 0.4
+      },
+      {
+        "label": "oct",
+        "sales": 32212.18,
+        "margin": 0.09
+      },
+      {
+        "label": "nov",
+        "sales": 22059.93,
+        "margin": 0.04
+      },
+      {
+        "label": "dec",
+        "sales": 20231.26,
+        "margin": 0.4
+      }
+    ],
+    "email": "shannamerrill@farmex.com",
+    "region": "Iowa",
+    "lat": 33.062877,
+    "lng": -107.931458,
     "site_admin": true
   },
   {
-    "display_name": "Kelley Wynn",
-    "id": "a2f971c5-23a6-40cf-8183-c9c0f5335c39",
+    "display_name": "Hartman Holloway",
+    "id": "366ef1db-51d6-4bc7-90d8-04acc10f06ce",
     "picture": "http://placehold.it/100x100",
-    "title": "LABORUM",
-    "sales": "$181,847.89",
-    "email": "kelleywynn@strozen.com",
-    "region": "Alabama",
-    "lat": 32.709144,
-    "lng": -80.749885,
+    "title": "CONSECTETUR",
+    "sales": 147954.59,
+    "monthly_sales": [
+      {
+        "label": "jan",
+        "sales": 15016.5,
+        "margin": 0.18
+      },
+      {
+        "label": "feb",
+        "sales": 30126.3,
+        "margin": 0.07
+      },
+      {
+        "label": "mar",
+        "sales": 26341.19,
+        "margin": 0.33
+      },
+      {
+        "label": "apr",
+        "sales": 35844.21,
+        "margin": 0.24
+      },
+      {
+        "label": "may",
+        "sales": 37981.87,
+        "margin": 0.27
+      },
+      {
+        "label": "jun",
+        "sales": 17434.79,
+        "margin": 0.3
+      },
+      {
+        "label": "july",
+        "sales": 39447.89,
+        "margin": 0.18
+      },
+      {
+        "label": "aug",
+        "sales": 24373.15,
+        "margin": 0.11
+      },
+      {
+        "label": "sept",
+        "sales": 13043.49,
+        "margin": 0.04
+      },
+      {
+        "label": "oct",
+        "sales": 28317.19,
+        "margin": 0.31
+      },
+      {
+        "label": "nov",
+        "sales": 18751.23,
+        "margin": 0.22
+      },
+      {
+        "label": "dec",
+        "sales": 30603.74,
+        "margin": 0.08
+      }
+    ],
+    "email": "hartmanholloway@farmex.com",
+    "region": "Kansas",
+    "lat": 44.368978,
+    "lng": -106.517285,
+    "site_admin": true
+  },
+  {
+    "display_name": "Valerie Ellison",
+    "id": "84a82a69-3705-437f-b90d-a36d12535094",
+    "picture": "http://placehold.it/100x100",
+    "title": "IN",
+    "sales": 355373.32,
+    "monthly_sales": [
+      {
+        "label": "jan",
+        "sales": 11911.05,
+        "margin": 0.24
+      },
+      {
+        "label": "feb",
+        "sales": 24113.35,
+        "margin": 0.44
+      },
+      {
+        "label": "mar",
+        "sales": 24341.73,
+        "margin": 0.17
+      },
+      {
+        "label": "apr",
+        "sales": 25698.32,
+        "margin": 0.29
+      },
+      {
+        "label": "may",
+        "sales": 13875.15,
+        "margin": 0.14
+      },
+      {
+        "label": "jun",
+        "sales": 36554.15,
+        "margin": 0.09
+      },
+      {
+        "label": "july",
+        "sales": 9716.42,
+        "margin": 0.28
+      },
+      {
+        "label": "aug",
+        "sales": 32501.39,
+        "margin": 0.2
+      },
+      {
+        "label": "sept",
+        "sales": 24543.68,
+        "margin": 0.39
+      },
+      {
+        "label": "oct",
+        "sales": 35647.6,
+        "margin": 0.08
+      },
+      {
+        "label": "nov",
+        "sales": 16900.4,
+        "margin": 0.25
+      },
+      {
+        "label": "dec",
+        "sales": 10442.41,
+        "margin": 0.13
+      }
+    ],
+    "email": "valerieellison@farmex.com",
+    "region": "Hawaii",
+    "lat": 32.477373,
+    "lng": -94.657072,
     "site_admin": false
   },
   {
-    "display_name": "Brittany Glass",
-    "id": "65f5f17c-72b1-4ea2-b3b2-9af741399f49",
+    "display_name": "Maricela Hinton",
+    "id": "35043f54-dec0-4192-9234-a49aef624428",
     "picture": "http://placehold.it/100x100",
     "title": "SINT",
-    "sales": "$211,420.83",
-    "email": "brittanyglass@strozen.com",
-    "region": "Mississippi",
-    "lat": 39.891082,
-    "lng": -78.710184,
+    "sales": 387537.91,
+    "monthly_sales": [
+      {
+        "label": "jan",
+        "sales": 14733.84,
+        "margin": 0.13
+      },
+      {
+        "label": "feb",
+        "sales": 14704.75,
+        "margin": 0.27
+      },
+      {
+        "label": "mar",
+        "sales": 9789.86,
+        "margin": 0.13
+      },
+      {
+        "label": "apr",
+        "sales": 35132.07,
+        "margin": 0.44
+      },
+      {
+        "label": "may",
+        "sales": 35916.25,
+        "margin": 0.35
+      },
+      {
+        "label": "jun",
+        "sales": 9513.21,
+        "margin": 0.09
+      },
+      {
+        "label": "july",
+        "sales": 15907.47,
+        "margin": 0.19
+      },
+      {
+        "label": "aug",
+        "sales": 21174.35,
+        "margin": 0.04
+      },
+      {
+        "label": "sept",
+        "sales": 14433.89,
+        "margin": 0.12
+      },
+      {
+        "label": "oct",
+        "sales": 8455.31,
+        "margin": 0.07
+      },
+      {
+        "label": "nov",
+        "sales": 38918.02,
+        "margin": 0.03
+      },
+      {
+        "label": "dec",
+        "sales": 31241.09,
+        "margin": 0.26
+      }
+    ],
+    "email": "maricelahinton@farmex.com",
+    "region": "Pennsylvania",
+    "lat": 33.42688,
+    "lng": -106.801673,
+    "site_admin": true
+  },
+  {
+    "display_name": "Blanca Haney",
+    "id": "2f898c8e-45b2-4045-9157-a3f5077aa184",
+    "picture": "http://placehold.it/100x100",
+    "title": "ID",
+    "sales": 157695.61,
+    "monthly_sales": [
+      {
+        "label": "jan",
+        "sales": 34938.22,
+        "margin": 0.37
+      },
+      {
+        "label": "feb",
+        "sales": 25875.13,
+        "margin": 0.35
+      },
+      {
+        "label": "mar",
+        "sales": 21378.81,
+        "margin": 0.31
+      },
+      {
+        "label": "apr",
+        "sales": 14072.02,
+        "margin": 0.09
+      },
+      {
+        "label": "may",
+        "sales": 8113.89,
+        "margin": 0.32
+      },
+      {
+        "label": "jun",
+        "sales": 38409.39,
+        "margin": 0.29
+      },
+      {
+        "label": "july",
+        "sales": 29172.86,
+        "margin": 0.17
+      },
+      {
+        "label": "aug",
+        "sales": 22244.24,
+        "margin": 0.24
+      },
+      {
+        "label": "sept",
+        "sales": 32256.68,
+        "margin": 0.14
+      },
+      {
+        "label": "oct",
+        "sales": 20616,
+        "margin": 0.11
+      },
+      {
+        "label": "nov",
+        "sales": 20268.18,
+        "margin": 0.24
+      },
+      {
+        "label": "dec",
+        "sales": 10964.15,
+        "margin": 0.22
+      }
+    ],
+    "email": "blancahaney@farmex.com",
+    "region": "District Of Columbia",
+    "lat": 33.120986,
+    "lng": -91.720205,
     "site_admin": false
   },
   {
-    "display_name": "Sheena Delgado",
-    "id": "3ffc41f4-05d5-4a2c-b238-a91a17acb6aa",
+    "display_name": "Shawn Scott",
+    "id": "d10b5219-8e6b-4ee6-9ca1-0e58e9a32674",
     "picture": "http://placehold.it/100x100",
     "title": "DOLOR",
-    "sales": "$302,973.90",
-    "email": "sheenadelgado@strozen.com",
-    "region": "Arkansas",
-    "lat": 40.584403,
-    "lng": -94.023039,
-    "site_admin": true
-  },
-  {
-    "display_name": "Velma Roy",
-    "id": "d11e6026-d381-49df-81ba-961cffe74ef6",
-    "picture": "http://placehold.it/100x100",
-    "title": "MAGNA",
-    "sales": "$281,392.63",
-    "email": "velmaroy@strozen.com",
-    "region": "Washington",
-    "lat": 30.1987,
-    "lng": -101.805099,
+    "sales": 209555.19,
+    "monthly_sales": [
+      {
+        "label": "jan",
+        "sales": 38267.32,
+        "margin": 0.35
+      },
+      {
+        "label": "feb",
+        "sales": 25337.9,
+        "margin": 0.08
+      },
+      {
+        "label": "mar",
+        "sales": 35978.13,
+        "margin": 0.2
+      },
+      {
+        "label": "apr",
+        "sales": 33464.68,
+        "margin": 0.32
+      },
+      {
+        "label": "may",
+        "sales": 9912.26,
+        "margin": 0.33
+      },
+      {
+        "label": "jun",
+        "sales": 38085.71,
+        "margin": 0.15
+      },
+      {
+        "label": "july",
+        "sales": 25906.95,
+        "margin": 0.02
+      },
+      {
+        "label": "aug",
+        "sales": 28377.03,
+        "margin": 0.19
+      },
+      {
+        "label": "sept",
+        "sales": 11961.5,
+        "margin": 0.16
+      },
+      {
+        "label": "oct",
+        "sales": 33969.69,
+        "margin": 0.32
+      },
+      {
+        "label": "nov",
+        "sales": 20702.33,
+        "margin": 0.43
+      },
+      {
+        "label": "dec",
+        "sales": 16070.6,
+        "margin": 0.12
+      }
+    ],
+    "email": "shawnscott@farmex.com",
+    "region": "Oklahoma",
+    "lat": 30.058745,
+    "lng": -91.448558,
     "site_admin": false
   },
   {
-    "display_name": "Sophia Mclean",
-    "id": "2ef01dcb-47d0-4a14-b166-712cffc023d8",
-    "picture": "http://placehold.it/100x100",
-    "title": "ALIQUA",
-    "sales": "$382,042.26",
-    "email": "sophiamclean@strozen.com",
-    "region": "Indiana",
-    "lat": 30.862118,
-    "lng": -74.852373,
-    "site_admin": false
-  },
-  {
-    "display_name": "Esperanza Sawyer",
-    "id": "abff55cb-dd22-4cfc-bcd9-efcf8979c8c5",
-    "picture": "http://placehold.it/100x100",
-    "title": "AMET",
-    "sales": "$179,457.07",
-    "email": "esperanzasawyer@strozen.com",
-    "region": "Montana",
-    "lat": 37.115471,
-    "lng": -100.376376,
-    "site_admin": true
-  },
-  {
-    "display_name": "Michael Howell",
-    "id": "2eb89574-f74b-44be-b9b9-ca9a415c17ae",
-    "picture": "http://placehold.it/100x100",
-    "title": "IN",
-    "sales": "$365,710.40",
-    "email": "michaelhowell@strozen.com",
-    "region": "North Dakota",
-    "lat": 30.704877,
-    "lng": -84.558259,
-    "site_admin": false
-  },
-  {
-    "display_name": "Sheila Horn",
-    "id": "f3683326-41f4-4e2f-b882-58fd11a51d4e",
-    "picture": "http://placehold.it/100x100",
-    "title": "EST",
-    "sales": "$325,233.24",
-    "email": "sheilahorn@strozen.com",
-    "region": "Kentucky",
-    "lat": 35.512825,
-    "lng": -108.872383,
-    "site_admin": false
-  },
-  {
-    "display_name": "Jennings English",
-    "id": "0bcc6cdd-7e5e-46d8-9121-6696ebe0f7c0",
-    "picture": "http://placehold.it/100x100",
-    "title": "SINT",
-    "sales": "$304,205.77",
-    "email": "jenningsenglish@strozen.com",
-    "region": "Georgia",
-    "lat": 34.395734,
-    "lng": -108.523331,
-    "site_admin": true
-  },
-  {
-    "display_name": "Melton Middleton",
-    "id": "adb5227f-2ee6-4b39-8f23-e12e845af54f",
-    "picture": "http://placehold.it/100x100",
-    "title": "EX",
-    "sales": "$225,388.72",
-    "email": "meltonmiddleton@strozen.com",
-    "region": "West Virginia",
-    "lat": 38.633621,
-    "lng": -102.865128,
-    "site_admin": false
-  },
-  {
-    "display_name": "Anderson Cardenas",
-    "id": "da30fa86-2db6-4e99-9a38-3e618bbd5fb5",
-    "picture": "http://placehold.it/100x100",
-    "title": "NISI",
-    "sales": "$268,006.93",
-    "email": "andersoncardenas@strozen.com",
-    "region": "Northern Mariana Islands",
-    "lat": 43.912761,
-    "lng": -96.913108,
-    "site_admin": true
-  },
-  {
-    "display_name": "Fields Ryan",
-    "id": "65973e56-9678-4ac6-adb0-16c0f88fbf32",
-    "picture": "http://placehold.it/100x100",
-    "title": "EX",
-    "sales": "$304,251.47",
-    "email": "fieldsryan@strozen.com",
-    "region": "Wyoming",
-    "lat": 36.760015,
-    "lng": -116.013409,
-    "site_admin": false
-  },
-  {
-    "display_name": "Glenna Nolan",
-    "id": "3ea63da0-999b-47fb-b842-41af8dd63385",
-    "picture": "http://placehold.it/100x100",
-    "title": "LABORE",
-    "sales": "$190,281.26",
-    "email": "glennanolan@strozen.com",
-    "region": "Nebraska",
-    "lat": 43.421508,
-    "lng": -74.778227,
-    "site_admin": false
-  },
-  {
-    "display_name": "Erna Diaz",
-    "id": "fa823f28-a7d4-485a-b55e-3f72336e388b",
-    "picture": "http://placehold.it/100x100",
-    "title": "AMET",
-    "sales": "$251,846.66",
-    "email": "ernadiaz@strozen.com",
-    "region": "South Carolina",
-    "lat": 34.700332,
-    "lng": -78.722191,
-    "site_admin": false
-  },
-  {
-    "display_name": "April Dunn",
-    "id": "ea8f1442-59a5-4199-998a-5e76d758ec36",
-    "picture": "http://placehold.it/100x100",
-    "title": "IPSUM",
-    "sales": "$272,637.20",
-    "email": "aprildunn@strozen.com",
-    "region": "Guam",
-    "lat": 33.475516,
-    "lng": -118.588199,
-    "site_admin": false
-  },
-  {
-    "display_name": "Mcdonald Walsh",
-    "id": "e3185345-5ccd-4271-ac96-8bf45a8ef7f5",
+    "display_name": "Ola Mcguire",
+    "id": "80f48638-a355-41e7-9ae1-25e935035925",
     "picture": "http://placehold.it/100x100",
     "title": "VOLUPTATE",
-    "sales": "$354,674.18",
-    "email": "mcdonaldwalsh@strozen.com",
-    "region": "Massachusetts",
-    "lat": 32.524214,
-    "lng": -111.063161,
+    "sales": 123165.76,
+    "monthly_sales": [
+      {
+        "label": "jan",
+        "sales": 12736.59,
+        "margin": 0.06
+      },
+      {
+        "label": "feb",
+        "sales": 33639.59,
+        "margin": 0.27
+      },
+      {
+        "label": "mar",
+        "sales": 30198.82,
+        "margin": 0.18
+      },
+      {
+        "label": "apr",
+        "sales": 30159.52,
+        "margin": 0.04
+      },
+      {
+        "label": "may",
+        "sales": 20450.32,
+        "margin": 0.13
+      },
+      {
+        "label": "jun",
+        "sales": 38759.1,
+        "margin": 0.25
+      },
+      {
+        "label": "july",
+        "sales": 19244.03,
+        "margin": 0.35
+      },
+      {
+        "label": "aug",
+        "sales": 12287.72,
+        "margin": 0.16
+      },
+      {
+        "label": "sept",
+        "sales": 10281.84,
+        "margin": 0.12
+      },
+      {
+        "label": "oct",
+        "sales": 16306.04,
+        "margin": 0.27
+      },
+      {
+        "label": "nov",
+        "sales": 35140.7,
+        "margin": 0.41
+      },
+      {
+        "label": "dec",
+        "sales": 29525.26,
+        "margin": 0.46
+      }
+    ],
+    "email": "olamcguire@farmex.com",
+    "region": "New Hampshire",
+    "lat": 45.71648,
+    "lng": -87.741571,
     "site_admin": false
   },
   {
-    "display_name": "Jami Lawson",
-    "id": "cf8e3702-5801-480c-97fd-c40144328e0e",
+    "display_name": "Nannie Nash",
+    "id": "0afe4e13-7c26-4826-8667-55f9ae3afafd",
+    "picture": "http://placehold.it/100x100",
+    "title": "NISI",
+    "sales": 235733.88,
+    "monthly_sales": [
+      {
+        "label": "jan",
+        "sales": 33596.72,
+        "margin": 0.37
+      },
+      {
+        "label": "feb",
+        "sales": 28792.15,
+        "margin": 0.3
+      },
+      {
+        "label": "mar",
+        "sales": 38083.87,
+        "margin": 0.15
+      },
+      {
+        "label": "apr",
+        "sales": 36396.99,
+        "margin": 0.19
+      },
+      {
+        "label": "may",
+        "sales": 21193.44,
+        "margin": 0.09
+      },
+      {
+        "label": "jun",
+        "sales": 24948.87,
+        "margin": 0.35
+      },
+      {
+        "label": "july",
+        "sales": 11137.09,
+        "margin": 0.4
+      },
+      {
+        "label": "aug",
+        "sales": 36232.44,
+        "margin": 0.24
+      },
+      {
+        "label": "sept",
+        "sales": 21127.41,
+        "margin": 0.31
+      },
+      {
+        "label": "oct",
+        "sales": 37776.84,
+        "margin": 0.08
+      },
+      {
+        "label": "nov",
+        "sales": 37818.32,
+        "margin": 0.17
+      },
+      {
+        "label": "dec",
+        "sales": 10212.43,
+        "margin": 0.4
+      }
+    ],
+    "email": "nannienash@farmex.com",
+    "region": "Virgin Islands",
+    "lat": 39.241523,
+    "lng": -97.279167,
+    "site_admin": false
+  },
+  {
+    "display_name": "Brock Glover",
+    "id": "711ed3e2-2be3-4698-929c-4e3998e2e20d",
+    "picture": "http://placehold.it/100x100",
+    "title": "ADIPISICING",
+    "sales": 87230.57,
+    "monthly_sales": [
+      {
+        "label": "jan",
+        "sales": 11759.14,
+        "margin": 0.27
+      },
+      {
+        "label": "feb",
+        "sales": 14718.53,
+        "margin": 0.36
+      },
+      {
+        "label": "mar",
+        "sales": 15944.14,
+        "margin": 0.12
+      },
+      {
+        "label": "apr",
+        "sales": 10838.19,
+        "margin": 0.32
+      },
+      {
+        "label": "may",
+        "sales": 28324.69,
+        "margin": 0.45
+      },
+      {
+        "label": "jun",
+        "sales": 14151.14,
+        "margin": 0.33
+      },
+      {
+        "label": "july",
+        "sales": 27643.94,
+        "margin": 0.11
+      },
+      {
+        "label": "aug",
+        "sales": 32876.96,
+        "margin": 0.27
+      },
+      {
+        "label": "sept",
+        "sales": 24882.51,
+        "margin": 0.38
+      },
+      {
+        "label": "oct",
+        "sales": 26560.03,
+        "margin": 0.05
+      },
+      {
+        "label": "nov",
+        "sales": 32258.65,
+        "margin": 0.38
+      },
+      {
+        "label": "dec",
+        "sales": 29398.18,
+        "margin": 0.21
+      }
+    ],
+    "email": "brockglover@farmex.com",
+    "region": "Florida",
+    "lat": 32.842885,
+    "lng": -118.024092,
+    "site_admin": false
+  },
+  {
+    "display_name": "Ericka Stanton",
+    "id": "4c7ac073-4fa8-47c8-b685-862dea6bfa22",
+    "picture": "http://placehold.it/100x100",
+    "title": "DOLOR",
+    "sales": 215399.92,
+    "monthly_sales": [
+      {
+        "label": "jan",
+        "sales": 15026.2,
+        "margin": 0.34
+      },
+      {
+        "label": "feb",
+        "sales": 18968.63,
+        "margin": 0.42
+      },
+      {
+        "label": "mar",
+        "sales": 26957.09,
+        "margin": 0.41
+      },
+      {
+        "label": "apr",
+        "sales": 26149.42,
+        "margin": 0.15
+      },
+      {
+        "label": "may",
+        "sales": 30593.7,
+        "margin": 0.07
+      },
+      {
+        "label": "jun",
+        "sales": 35929.51,
+        "margin": 0.24
+      },
+      {
+        "label": "july",
+        "sales": 16905.7,
+        "margin": 0.4
+      },
+      {
+        "label": "aug",
+        "sales": 34838.51,
+        "margin": 0.36
+      },
+      {
+        "label": "sept",
+        "sales": 22982.23,
+        "margin": 0.03
+      },
+      {
+        "label": "oct",
+        "sales": 18113.11,
+        "margin": 0.13
+      },
+      {
+        "label": "nov",
+        "sales": 8144.2,
+        "margin": 0.16
+      },
+      {
+        "label": "dec",
+        "sales": 23790.24,
+        "margin": 0.39
+      }
+    ],
+    "email": "erickastanton@farmex.com",
+    "region": "Montana",
+    "lat": 43.561877,
+    "lng": -99.038173,
+    "site_admin": true
+  },
+  {
+    "display_name": "Della Hatfield",
+    "id": "7635fe45-bbc1-4c3b-8110-53dddd455278",
+    "picture": "http://placehold.it/100x100",
+    "title": "CONSECTETUR",
+    "sales": 281584.43,
+    "monthly_sales": [
+      {
+        "label": "jan",
+        "sales": 23729.9,
+        "margin": 0.38
+      },
+      {
+        "label": "feb",
+        "sales": 39547.34,
+        "margin": 0.05
+      },
+      {
+        "label": "mar",
+        "sales": 16232.4,
+        "margin": 0.36
+      },
+      {
+        "label": "apr",
+        "sales": 21020.67,
+        "margin": 0.2
+      },
+      {
+        "label": "may",
+        "sales": 9613.07,
+        "margin": 0.42
+      },
+      {
+        "label": "jun",
+        "sales": 30276.69,
+        "margin": 0.43
+      },
+      {
+        "label": "july",
+        "sales": 36428.71,
+        "margin": 0.19
+      },
+      {
+        "label": "aug",
+        "sales": 22940.31,
+        "margin": 0.03
+      },
+      {
+        "label": "sept",
+        "sales": 20595.44,
+        "margin": 0.35
+      },
+      {
+        "label": "oct",
+        "sales": 31997.53,
+        "margin": 0.21
+      },
+      {
+        "label": "nov",
+        "sales": 32901.75,
+        "margin": 0.12
+      },
+      {
+        "label": "dec",
+        "sales": 17510.23,
+        "margin": 0.27
+      }
+    ],
+    "email": "dellahatfield@farmex.com",
+    "region": "New Mexico",
+    "lat": 35.044026,
+    "lng": -119.124267,
+    "site_admin": false
+  },
+  {
+    "display_name": "Carlson Welch",
+    "id": "a9de3c47-61b8-4ee8-9c90-63ccb735d42b",
+    "picture": "http://placehold.it/100x100",
+    "title": "INCIDIDUNT",
+    "sales": 240179.49,
+    "monthly_sales": [
+      {
+        "label": "jan",
+        "sales": 10397.79,
+        "margin": 0.08
+      },
+      {
+        "label": "feb",
+        "sales": 16617.95,
+        "margin": 0.21
+      },
+      {
+        "label": "mar",
+        "sales": 14358.96,
+        "margin": 0.37
+      },
+      {
+        "label": "apr",
+        "sales": 22397.61,
+        "margin": 0.15
+      },
+      {
+        "label": "may",
+        "sales": 21425.19,
+        "margin": 0.03
+      },
+      {
+        "label": "jun",
+        "sales": 13811.01,
+        "margin": 0.25
+      },
+      {
+        "label": "july",
+        "sales": 17281.19,
+        "margin": 0.43
+      },
+      {
+        "label": "aug",
+        "sales": 39716.78,
+        "margin": 0.19
+      },
+      {
+        "label": "sept",
+        "sales": 39638.34,
+        "margin": 0.1
+      },
+      {
+        "label": "oct",
+        "sales": 37593.38,
+        "margin": 0.16
+      },
+      {
+        "label": "nov",
+        "sales": 30721.2,
+        "margin": 0.41
+      },
+      {
+        "label": "dec",
+        "sales": 16271.07,
+        "margin": 0.41
+      }
+    ],
+    "email": "carlsonwelch@farmex.com",
+    "region": "Vermont",
+    "lat": 42.3264,
+    "lng": -100.001898,
+    "site_admin": false
+  },
+  {
+    "display_name": "Kristina Mills",
+    "id": "b5198cb3-973e-4b34-98fc-09c50abbdd22",
+    "picture": "http://placehold.it/100x100",
+    "title": "NULLA",
+    "sales": 227299.1,
+    "monthly_sales": [
+      {
+        "label": "jan",
+        "sales": 29204.14,
+        "margin": 0.06
+      },
+      {
+        "label": "feb",
+        "sales": 30343.71,
+        "margin": 0.44
+      },
+      {
+        "label": "mar",
+        "sales": 32240.14,
+        "margin": 0.32
+      },
+      {
+        "label": "apr",
+        "sales": 17750.16,
+        "margin": 0.03
+      },
+      {
+        "label": "may",
+        "sales": 27828.97,
+        "margin": 0.41
+      },
+      {
+        "label": "jun",
+        "sales": 15451.41,
+        "margin": 0.16
+      },
+      {
+        "label": "july",
+        "sales": 38437.07,
+        "margin": 0.07
+      },
+      {
+        "label": "aug",
+        "sales": 11670.25,
+        "margin": 0.12
+      },
+      {
+        "label": "sept",
+        "sales": 20788.77,
+        "margin": 0.1
+      },
+      {
+        "label": "oct",
+        "sales": 31314.76,
+        "margin": 0.18
+      },
+      {
+        "label": "nov",
+        "sales": 29616.59,
+        "margin": 0.23
+      },
+      {
+        "label": "dec",
+        "sales": 34636.04,
+        "margin": 0.38
+      }
+    ],
+    "email": "kristinamills@farmex.com",
+    "region": "Idaho",
+    "lat": 44.794489,
+    "lng": -114.563812,
+    "site_admin": true
+  },
+  {
+    "display_name": "Hudson Tran",
+    "id": "489d0083-560a-4ecf-8b16-2ef5ef81dba7",
+    "picture": "http://placehold.it/100x100",
+    "title": "ET",
+    "sales": 172649.36,
+    "monthly_sales": [
+      {
+        "label": "jan",
+        "sales": 39094.62,
+        "margin": 0.4
+      },
+      {
+        "label": "feb",
+        "sales": 31725.84,
+        "margin": 0.06
+      },
+      {
+        "label": "mar",
+        "sales": 24832.73,
+        "margin": 0.41
+      },
+      {
+        "label": "apr",
+        "sales": 30374.22,
+        "margin": 0.11
+      },
+      {
+        "label": "may",
+        "sales": 24463.48,
+        "margin": 0.24
+      },
+      {
+        "label": "jun",
+        "sales": 34513.34,
+        "margin": 0.16
+      },
+      {
+        "label": "july",
+        "sales": 24124.68,
+        "margin": 0.08
+      },
+      {
+        "label": "aug",
+        "sales": 33023.44,
+        "margin": 0.02
+      },
+      {
+        "label": "sept",
+        "sales": 37978.88,
+        "margin": 0.08
+      },
+      {
+        "label": "oct",
+        "sales": 38595.67,
+        "margin": 0.46
+      },
+      {
+        "label": "nov",
+        "sales": 18324.51,
+        "margin": 0.12
+      },
+      {
+        "label": "dec",
+        "sales": 28477.51,
+        "margin": 0.45
+      }
+    ],
+    "email": "hudsontran@farmex.com",
+    "region": "Guam",
+    "lat": 38.911053,
+    "lng": -118.265122,
+    "site_admin": true
+  },
+  {
+    "display_name": "Madelyn Rojas",
+    "id": "8f9141a2-c243-4e3c-b367-95404f2e3b46",
+    "picture": "http://placehold.it/100x100",
+    "title": "NISI",
+    "sales": 176051.51,
+    "monthly_sales": [
+      {
+        "label": "jan",
+        "sales": 33509.87,
+        "margin": 0.06
+      },
+      {
+        "label": "feb",
+        "sales": 26550.18,
+        "margin": 0.35
+      },
+      {
+        "label": "mar",
+        "sales": 34055.42,
+        "margin": 0.36
+      },
+      {
+        "label": "apr",
+        "sales": 22455.03,
+        "margin": 0.09
+      },
+      {
+        "label": "may",
+        "sales": 15639.93,
+        "margin": 0.03
+      },
+      {
+        "label": "jun",
+        "sales": 9632.55,
+        "margin": 0.24
+      },
+      {
+        "label": "july",
+        "sales": 33332.83,
+        "margin": 0.2
+      },
+      {
+        "label": "aug",
+        "sales": 39751.81,
+        "margin": 0.46
+      },
+      {
+        "label": "sept",
+        "sales": 11987.91,
+        "margin": 0.12
+      },
+      {
+        "label": "oct",
+        "sales": 20814.68,
+        "margin": 0.12
+      },
+      {
+        "label": "nov",
+        "sales": 31251.96,
+        "margin": 0.23
+      },
+      {
+        "label": "dec",
+        "sales": 36900.63,
+        "margin": 0.04
+      }
+    ],
+    "email": "madelynrojas@farmex.com",
+    "region": "Arizona",
+    "lat": 38.709276,
+    "lng": -96.047744,
+    "site_admin": true
+  },
+  {
+    "display_name": "Christy Meyer",
+    "id": "482a8617-f2c9-4e85-aa2a-bd9edf335021",
+    "picture": "http://placehold.it/100x100",
+    "title": "COMMODO",
+    "sales": 150343.57,
+    "monthly_sales": [
+      {
+        "label": "jan",
+        "sales": 27133.63,
+        "margin": 0.02
+      },
+      {
+        "label": "feb",
+        "sales": 16995.91,
+        "margin": 0.16
+      },
+      {
+        "label": "mar",
+        "sales": 23449.08,
+        "margin": 0.28
+      },
+      {
+        "label": "apr",
+        "sales": 39969.08,
+        "margin": 0.02
+      },
+      {
+        "label": "may",
+        "sales": 17344.8,
+        "margin": 0.11
+      },
+      {
+        "label": "jun",
+        "sales": 9478.45,
+        "margin": 0.18
+      },
+      {
+        "label": "july",
+        "sales": 21437.22,
+        "margin": 0.15
+      },
+      {
+        "label": "aug",
+        "sales": 35031.65,
+        "margin": 0.39
+      },
+      {
+        "label": "sept",
+        "sales": 31347.82,
+        "margin": 0.14
+      },
+      {
+        "label": "oct",
+        "sales": 19887.72,
+        "margin": 0.12
+      },
+      {
+        "label": "nov",
+        "sales": 31281.67,
+        "margin": 0.3
+      },
+      {
+        "label": "dec",
+        "sales": 14472.93,
+        "margin": 0.31
+      }
+    ],
+    "email": "christymeyer@farmex.com",
+    "region": "West Virginia",
+    "lat": 42.548226,
+    "lng": -78.542912,
+    "site_admin": true
+  },
+  {
+    "display_name": "Moreno Le",
+    "id": "0926b7cc-0642-4200-b1c9-340fd6430b2b",
+    "picture": "http://placehold.it/100x100",
+    "title": "INCIDIDUNT",
+    "sales": 174487.86,
+    "monthly_sales": [
+      {
+        "label": "jan",
+        "sales": 20854.28,
+        "margin": 0.33
+      },
+      {
+        "label": "feb",
+        "sales": 30259.88,
+        "margin": 0.25
+      },
+      {
+        "label": "mar",
+        "sales": 26727.21,
+        "margin": 0.12
+      },
+      {
+        "label": "apr",
+        "sales": 32479.39,
+        "margin": 0.19
+      },
+      {
+        "label": "may",
+        "sales": 14220.82,
+        "margin": 0.22
+      },
+      {
+        "label": "jun",
+        "sales": 20626.74,
+        "margin": 0.16
+      },
+      {
+        "label": "july",
+        "sales": 16481.81,
+        "margin": 0.29
+      },
+      {
+        "label": "aug",
+        "sales": 24408.17,
+        "margin": 0.25
+      },
+      {
+        "label": "sept",
+        "sales": 22518.83,
+        "margin": 0.37
+      },
+      {
+        "label": "oct",
+        "sales": 33221.29,
+        "margin": 0.28
+      },
+      {
+        "label": "nov",
+        "sales": 36885.85,
+        "margin": 0.33
+      },
+      {
+        "label": "dec",
+        "sales": 25115.43,
+        "margin": 0.33
+      }
+    ],
+    "email": "morenole@farmex.com",
+    "region": "Utah",
+    "lat": 38.81115,
+    "lng": -78.236201,
+    "site_admin": false
+  },
+  {
+    "display_name": "Stevens Sparks",
+    "id": "bd972a12-27a5-4434-96c8-e4744a1fe01c",
+    "picture": "http://placehold.it/100x100",
+    "title": "ELIT",
+    "sales": 155874.89,
+    "monthly_sales": [
+      {
+        "label": "jan",
+        "sales": 34940.6,
+        "margin": 0.09
+      },
+      {
+        "label": "feb",
+        "sales": 25135.68,
+        "margin": 0.32
+      },
+      {
+        "label": "mar",
+        "sales": 18599.9,
+        "margin": 0.43
+      },
+      {
+        "label": "apr",
+        "sales": 22617.3,
+        "margin": 0.19
+      },
+      {
+        "label": "may",
+        "sales": 24417.54,
+        "margin": 0.39
+      },
+      {
+        "label": "jun",
+        "sales": 29654.49,
+        "margin": 0.44
+      },
+      {
+        "label": "july",
+        "sales": 19990.86,
+        "margin": 0.05
+      },
+      {
+        "label": "aug",
+        "sales": 37010.89,
+        "margin": 0.22
+      },
+      {
+        "label": "sept",
+        "sales": 8459.17,
+        "margin": 0.04
+      },
+      {
+        "label": "oct",
+        "sales": 13825.49,
+        "margin": 0.1
+      },
+      {
+        "label": "nov",
+        "sales": 31003.49,
+        "margin": 0.05
+      },
+      {
+        "label": "dec",
+        "sales": 28546.21,
+        "margin": 0.04
+      }
+    ],
+    "email": "stevenssparks@farmex.com",
+    "region": "Louisiana",
+    "lat": 36.487652,
+    "lng": -118.049699,
+    "site_admin": true
+  },
+  {
+    "display_name": "Ilene Joyce",
+    "id": "33ceddec-0664-456f-af0c-9f2e0c2701af",
+    "picture": "http://placehold.it/100x100",
+    "title": "EST",
+    "sales": 142040.24,
+    "monthly_sales": [
+      {
+        "label": "jan",
+        "sales": 26453.8,
+        "margin": 0.19
+      },
+      {
+        "label": "feb",
+        "sales": 27202.61,
+        "margin": 0.35
+      },
+      {
+        "label": "mar",
+        "sales": 15842.89,
+        "margin": 0.41
+      },
+      {
+        "label": "apr",
+        "sales": 21680.71,
+        "margin": 0.19
+      },
+      {
+        "label": "may",
+        "sales": 39251.64,
+        "margin": 0.07
+      },
+      {
+        "label": "jun",
+        "sales": 26235.79,
+        "margin": 0.15
+      },
+      {
+        "label": "july",
+        "sales": 22169.96,
+        "margin": 0.12
+      },
+      {
+        "label": "aug",
+        "sales": 27332.81,
+        "margin": 0.17
+      },
+      {
+        "label": "sept",
+        "sales": 33944.41,
+        "margin": 0.35
+      },
+      {
+        "label": "oct",
+        "sales": 31174.12,
+        "margin": 0.28
+      },
+      {
+        "label": "nov",
+        "sales": 33143.94,
+        "margin": 0.3
+      },
+      {
+        "label": "dec",
+        "sales": 28717.44,
+        "margin": 0.42
+      }
+    ],
+    "email": "ilenejoyce@farmex.com",
+    "region": "Texas",
+    "lat": 44.399021,
+    "lng": -108.625905,
+    "site_admin": false
+  },
+  {
+    "display_name": "Simmons Carter",
+    "id": "bfbdcf70-361c-491c-a212-198cd06c495a",
+    "picture": "http://placehold.it/100x100",
+    "title": "EX",
+    "sales": 132442.45,
+    "monthly_sales": [
+      {
+        "label": "jan",
+        "sales": 17968.54,
+        "margin": 0.02
+      },
+      {
+        "label": "feb",
+        "sales": 32266.04,
+        "margin": 0.11
+      },
+      {
+        "label": "mar",
+        "sales": 28086.86,
+        "margin": 0.13
+      },
+      {
+        "label": "apr",
+        "sales": 25832,
+        "margin": 0.36
+      },
+      {
+        "label": "may",
+        "sales": 29684.06,
+        "margin": 0.16
+      },
+      {
+        "label": "jun",
+        "sales": 17264.06,
+        "margin": 0.18
+      },
+      {
+        "label": "july",
+        "sales": 28756.41,
+        "margin": 0.1
+      },
+      {
+        "label": "aug",
+        "sales": 30897.66,
+        "margin": 0.42
+      },
+      {
+        "label": "sept",
+        "sales": 36584.83,
+        "margin": 0.25
+      },
+      {
+        "label": "oct",
+        "sales": 22977.52,
+        "margin": 0.4
+      },
+      {
+        "label": "nov",
+        "sales": 9094.45,
+        "margin": 0.45
+      },
+      {
+        "label": "dec",
+        "sales": 34465.39,
+        "margin": 0.02
+      }
+    ],
+    "email": "simmonscarter@farmex.com",
+    "region": "Wisconsin",
+    "lat": 37.892897,
+    "lng": -97.26307,
+    "site_admin": false
+  },
+  {
+    "display_name": "James Key",
+    "id": "9f35f989-6922-4ae5-85ed-d01b366eeede",
+    "picture": "http://placehold.it/100x100",
+    "title": "DESERUNT",
+    "sales": 254644.52,
+    "monthly_sales": [
+      {
+        "label": "jan",
+        "sales": 13132.41,
+        "margin": 0.12
+      },
+      {
+        "label": "feb",
+        "sales": 24040.54,
+        "margin": 0.36
+      },
+      {
+        "label": "mar",
+        "sales": 33629.66,
+        "margin": 0.33
+      },
+      {
+        "label": "apr",
+        "sales": 19173.54,
+        "margin": 0.36
+      },
+      {
+        "label": "may",
+        "sales": 9296.64,
+        "margin": 0.04
+      },
+      {
+        "label": "jun",
+        "sales": 21435.37,
+        "margin": 0.37
+      },
+      {
+        "label": "july",
+        "sales": 17777.27,
+        "margin": 0.36
+      },
+      {
+        "label": "aug",
+        "sales": 15272.38,
+        "margin": 0.32
+      },
+      {
+        "label": "sept",
+        "sales": 30937.31,
+        "margin": 0.32
+      },
+      {
+        "label": "oct",
+        "sales": 10919.44,
+        "margin": 0.37
+      },
+      {
+        "label": "nov",
+        "sales": 11697.29,
+        "margin": 0.2
+      },
+      {
+        "label": "dec",
+        "sales": 39970.93,
+        "margin": 0.02
+      }
+    ],
+    "email": "jameskey@farmex.com",
+    "region": "Maine",
+    "lat": 34.255918,
+    "lng": -112.366544,
+    "site_admin": true
+  },
+  {
+    "display_name": "Marcia Burton",
+    "id": "8f01b76b-0921-41c9-910f-579346390a90",
+    "picture": "http://placehold.it/100x100",
+    "title": "ESSE",
+    "sales": 115705.71,
+    "monthly_sales": [
+      {
+        "label": "jan",
+        "sales": 28418.25,
+        "margin": 0.08
+      },
+      {
+        "label": "feb",
+        "sales": 14205.97,
+        "margin": 0.15
+      },
+      {
+        "label": "mar",
+        "sales": 26436.08,
+        "margin": 0.14
+      },
+      {
+        "label": "apr",
+        "sales": 36071.4,
+        "margin": 0.25
+      },
+      {
+        "label": "may",
+        "sales": 34105.82,
+        "margin": 0.03
+      },
+      {
+        "label": "jun",
+        "sales": 28275.33,
+        "margin": 0.37
+      },
+      {
+        "label": "july",
+        "sales": 17329.52,
+        "margin": 0.03
+      },
+      {
+        "label": "aug",
+        "sales": 12814.7,
+        "margin": 0.43
+      },
+      {
+        "label": "sept",
+        "sales": 20914.78,
+        "margin": 0.12
+      },
+      {
+        "label": "oct",
+        "sales": 20221.07,
+        "margin": 0.46
+      },
+      {
+        "label": "nov",
+        "sales": 27757.49,
+        "margin": 0.15
+      },
+      {
+        "label": "dec",
+        "sales": 25124.92,
+        "margin": 0.08
+      }
+    ],
+    "email": "marciaburton@farmex.com",
+    "region": "Maryland",
+    "lat": 40.895979,
+    "lng": -72.02902,
+    "site_admin": true
+  },
+  {
+    "display_name": "Louella Doyle",
+    "id": "1c16e6ca-60ef-4b8a-96e4-0bf533a4ff81",
     "picture": "http://placehold.it/100x100",
     "title": "IN",
-    "sales": "$120,626.85",
-    "email": "jamilawson@strozen.com",
+    "sales": 336327.39,
+    "monthly_sales": [
+      {
+        "label": "jan",
+        "sales": 36123.86,
+        "margin": 0.08
+      },
+      {
+        "label": "feb",
+        "sales": 15147.03,
+        "margin": 0.27
+      },
+      {
+        "label": "mar",
+        "sales": 30880.87,
+        "margin": 0.45
+      },
+      {
+        "label": "apr",
+        "sales": 15786.92,
+        "margin": 0.38
+      },
+      {
+        "label": "may",
+        "sales": 25067.8,
+        "margin": 0.29
+      },
+      {
+        "label": "jun",
+        "sales": 34241.56,
+        "margin": 0.1
+      },
+      {
+        "label": "july",
+        "sales": 17528.82,
+        "margin": 0.16
+      },
+      {
+        "label": "aug",
+        "sales": 23000.14,
+        "margin": 0.34
+      },
+      {
+        "label": "sept",
+        "sales": 17469.42,
+        "margin": 0.21
+      },
+      {
+        "label": "oct",
+        "sales": 28042.87,
+        "margin": 0.1
+      },
+      {
+        "label": "nov",
+        "sales": 35343.18,
+        "margin": 0.37
+      },
+      {
+        "label": "dec",
+        "sales": 26638.28,
+        "margin": 0.3
+      }
+    ],
+    "email": "louelladoyle@farmex.com",
+    "region": "North Carolina",
+    "lat": 33.988271,
+    "lng": -96.832351,
+    "site_admin": false
+  },
+  {
+    "display_name": "Kelsey Aguilar",
+    "id": "078dcd53-bf16-4cbc-aa13-4d7434e86d07",
+    "picture": "http://placehold.it/100x100",
+    "title": "UT",
+    "sales": 137372.57,
+    "monthly_sales": [
+      {
+        "label": "jan",
+        "sales": 31984.87,
+        "margin": 0.29
+      },
+      {
+        "label": "feb",
+        "sales": 28107.33,
+        "margin": 0.23
+      },
+      {
+        "label": "mar",
+        "sales": 35595.05,
+        "margin": 0.04
+      },
+      {
+        "label": "apr",
+        "sales": 25716.4,
+        "margin": 0.39
+      },
+      {
+        "label": "may",
+        "sales": 11755.23,
+        "margin": 0.21
+      },
+      {
+        "label": "jun",
+        "sales": 36028.59,
+        "margin": 0.25
+      },
+      {
+        "label": "july",
+        "sales": 38743.96,
+        "margin": 0.09
+      },
+      {
+        "label": "aug",
+        "sales": 26379.13,
+        "margin": 0.17
+      },
+      {
+        "label": "sept",
+        "sales": 14394.87,
+        "margin": 0.03
+      },
+      {
+        "label": "oct",
+        "sales": 25531.16,
+        "margin": 0.02
+      },
+      {
+        "label": "nov",
+        "sales": 11134.79,
+        "margin": 0.29
+      },
+      {
+        "label": "dec",
+        "sales": 25689.96,
+        "margin": 0.04
+      }
+    ],
+    "email": "kelseyaguilar@farmex.com",
     "region": "Rhode Island",
-    "lat": 37.409586,
-    "lng": -111.964641,
-    "site_admin": true
-  },
-  {
-    "display_name": "Henson Willis",
-    "id": "669b2355-9195-4262-970d-0b56d274b3ba",
-    "picture": "http://placehold.it/100x100",
-    "title": "MINIM",
-    "sales": "$208,392.39",
-    "email": "hensonwillis@strozen.com",
-    "region": "California",
-    "lat": 39.419431,
-    "lng": -110.884115,
-    "site_admin": true
-  },
-  {
-    "display_name": "English Castro",
-    "id": "93030f9c-ce18-4fd9-aefe-64fec4caf8ee",
-    "picture": "http://placehold.it/100x100",
-    "title": "EXERCITATION",
-    "sales": "$132,055.18",
-    "email": "englishcastro@strozen.com",
-    "region": "Vermont",
-    "lat": 37.22705,
-    "lng": -82.218859,
+    "lat": 38.053126,
+    "lng": -102.382917,
     "site_admin": false
   },
   {
-    "display_name": "Parsons Talley",
-    "id": "9372b182-bb6e-4f84-8b6a-db08a121fdda",
+    "display_name": "Dionne Perez",
+    "id": "57a9012b-9fce-4b59-a12e-15c45e5093e8",
     "picture": "http://placehold.it/100x100",
-    "title": "AMET",
-    "sales": "$113,569.69",
-    "email": "parsonstalley@strozen.com",
-    "region": "New Jersey",
-    "lat": 33.072439,
-    "lng": -116.808886,
+    "title": "IRURE",
+    "sales": 149347.83,
+    "monthly_sales": [
+      {
+        "label": "jan",
+        "sales": 31264.89,
+        "margin": 0.37
+      },
+      {
+        "label": "feb",
+        "sales": 20405.65,
+        "margin": 0.23
+      },
+      {
+        "label": "mar",
+        "sales": 20108.6,
+        "margin": 0.16
+      },
+      {
+        "label": "apr",
+        "sales": 25236.55,
+        "margin": 0.4
+      },
+      {
+        "label": "may",
+        "sales": 15715.25,
+        "margin": 0.35
+      },
+      {
+        "label": "jun",
+        "sales": 13431.03,
+        "margin": 0.11
+      },
+      {
+        "label": "july",
+        "sales": 24450.36,
+        "margin": 0.14
+      },
+      {
+        "label": "aug",
+        "sales": 29728.91,
+        "margin": 0.26
+      },
+      {
+        "label": "sept",
+        "sales": 33665.37,
+        "margin": 0.31
+      },
+      {
+        "label": "oct",
+        "sales": 12332.83,
+        "margin": 0.17
+      },
+      {
+        "label": "nov",
+        "sales": 28544.97,
+        "margin": 0.05
+      },
+      {
+        "label": "dec",
+        "sales": 32734.49,
+        "margin": 0.1
+      }
+    ],
+    "email": "dionneperez@farmex.com",
+    "region": "Colorado",
+    "lat": 31.809669,
+    "lng": -119.827009,
     "site_admin": false
   },
   {
-    "display_name": "Dickson Kirkland",
-    "id": "e011cf05-057a-438b-af2a-c68db3f36779",
-    "picture": "http://placehold.it/100x100",
-    "title": "AUTE",
-    "sales": "$221,237.79",
-    "email": "dicksonkirkland@strozen.com",
-    "region": "Kansas",
-    "lat": 44.650572,
-    "lng": -99.11885,
-    "site_admin": false
-  },
-  {
-    "display_name": "Johanna Christensen",
-    "id": "50b64ba9-f6cd-4bb5-aaed-6e89781ed460",
-    "picture": "http://placehold.it/100x100",
-    "title": "ENIM",
-    "sales": "$232,227.61",
-    "email": "johannachristensen@strozen.com",
-    "region": "Oregon",
-    "lat": 33.567456,
-    "lng": -96.166468,
-    "site_admin": true
-  },
-  {
-    "display_name": "Rebecca Patterson",
-    "id": "cc8da615-61a2-4cf5-a721-84018d041cdc",
-    "picture": "http://placehold.it/100x100",
-    "title": "OCCAECAT",
-    "sales": "$284,946.23",
-    "email": "rebeccapatterson@strozen.com",
-    "region": "Marshall Islands",
-    "lat": 33.922318,
-    "lng": -87.036107,
-    "site_admin": true
-  },
-  {
-    "display_name": "Tonya Simmons",
-    "id": "9f6ce00c-9947-4677-a09b-cb0e4f419198",
-    "picture": "http://placehold.it/100x100",
-    "title": "ADIPISICING",
-    "sales": "$317,447.69",
-    "email": "tonyasimmons@strozen.com",
-    "region": "Louisiana",
-    "lat": 32.376696,
-    "lng": -117.103943,
-    "site_admin": false
-  },
-  {
-    "display_name": "Ida Stanley",
-    "id": "ac8de017-7a59-434b-91e5-903774d6771d",
-    "picture": "http://placehold.it/100x100",
-    "title": "CULPA",
-    "sales": "$253,529.83",
-    "email": "idastanley@strozen.com",
-    "region": "Oklahoma",
-    "lat": 42.640715,
-    "lng": -70.994299,
-    "site_admin": true
-  },
-  {
-    "display_name": "Dorothea Keith",
-    "id": "edb8fbba-51e1-46d9-9133-c3b8e77c2adb",
-    "picture": "http://placehold.it/100x100",
-    "title": "ADIPISICING",
-    "sales": "$277,918.42",
-    "email": "dorotheakeith@strozen.com",
-    "region": "Arizona",
-    "lat": 30.321083,
-    "lng": -71.379398,
-    "site_admin": true
-  },
-  {
-    "display_name": "Holden Bryan",
-    "id": "b04fb3b3-0b29-4e43-8763-800cc794bf67",
+    "display_name": "Cain Kerr",
+    "id": "d63d7d87-8b84-40b0-b77e-f115c119907e",
     "picture": "http://placehold.it/100x100",
     "title": "EA",
-    "sales": "$323,432.31",
-    "email": "holdenbryan@strozen.com",
-    "region": "Missouri",
-    "lat": 44.617394,
-    "lng": -80.591379,
+    "sales": 330686.12,
+    "monthly_sales": [
+      {
+        "label": "jan",
+        "sales": 24815.45,
+        "margin": 0.19
+      },
+      {
+        "label": "feb",
+        "sales": 33578.77,
+        "margin": 0.42
+      },
+      {
+        "label": "mar",
+        "sales": 38054.02,
+        "margin": 0.11
+      },
+      {
+        "label": "apr",
+        "sales": 36916.51,
+        "margin": 0.19
+      },
+      {
+        "label": "may",
+        "sales": 15263.16,
+        "margin": 0.41
+      },
+      {
+        "label": "jun",
+        "sales": 17858.84,
+        "margin": 0.25
+      },
+      {
+        "label": "july",
+        "sales": 30582.36,
+        "margin": 0.05
+      },
+      {
+        "label": "aug",
+        "sales": 19589.06,
+        "margin": 0.31
+      },
+      {
+        "label": "sept",
+        "sales": 17078.92,
+        "margin": 0.14
+      },
+      {
+        "label": "oct",
+        "sales": 11736.75,
+        "margin": 0.23
+      },
+      {
+        "label": "nov",
+        "sales": 28112.29,
+        "margin": 0.11
+      },
+      {
+        "label": "dec",
+        "sales": 17840.43,
+        "margin": 0.1
+      }
+    ],
+    "email": "cainkerr@farmex.com",
+    "region": "American Samoa",
+    "lat": 33.532425,
+    "lng": -108.157965,
+    "site_admin": false
+  },
+  {
+    "display_name": "Mckee Roach",
+    "id": "a54a6cd2-a462-4004-9344-acbf6ec13534",
+    "picture": "http://placehold.it/100x100",
+    "title": "NISI",
+    "sales": 362478.43,
+    "monthly_sales": [
+      {
+        "label": "jan",
+        "sales": 8651.97,
+        "margin": 0.06
+      },
+      {
+        "label": "feb",
+        "sales": 27324.03,
+        "margin": 0.43
+      },
+      {
+        "label": "mar",
+        "sales": 38196.28,
+        "margin": 0.19
+      },
+      {
+        "label": "apr",
+        "sales": 21007.14,
+        "margin": 0.14
+      },
+      {
+        "label": "may",
+        "sales": 28967.85,
+        "margin": 0.15
+      },
+      {
+        "label": "jun",
+        "sales": 29534.66,
+        "margin": 0.26
+      },
+      {
+        "label": "july",
+        "sales": 31568.64,
+        "margin": 0.19
+      },
+      {
+        "label": "aug",
+        "sales": 35586.62,
+        "margin": 0.23
+      },
+      {
+        "label": "sept",
+        "sales": 34047.09,
+        "margin": 0.42
+      },
+      {
+        "label": "oct",
+        "sales": 24941.94,
+        "margin": 0.19
+      },
+      {
+        "label": "nov",
+        "sales": 8742.68,
+        "margin": 0.39
+      },
+      {
+        "label": "dec",
+        "sales": 17034.79,
+        "margin": 0.44
+      }
+    ],
+    "email": "mckeeroach@farmex.com",
+    "region": "South Carolina",
+    "lat": 31.685487,
+    "lng": -71.519297,
+    "site_admin": false
+  },
+  {
+    "display_name": "Grant Brewer",
+    "id": "8290bd59-8c94-4e0a-9d7b-c15a697d56ed",
+    "picture": "http://placehold.it/100x100",
+    "title": "ID",
+    "sales": 208480.46,
+    "monthly_sales": [
+      {
+        "label": "jan",
+        "sales": 9436.18,
+        "margin": 0.09
+      },
+      {
+        "label": "feb",
+        "sales": 13702.4,
+        "margin": 0.19
+      },
+      {
+        "label": "mar",
+        "sales": 19266.87,
+        "margin": 0.37
+      },
+      {
+        "label": "apr",
+        "sales": 23340.52,
+        "margin": 0.38
+      },
+      {
+        "label": "may",
+        "sales": 23888.43,
+        "margin": 0.18
+      },
+      {
+        "label": "jun",
+        "sales": 17633.8,
+        "margin": 0.21
+      },
+      {
+        "label": "july",
+        "sales": 31958.21,
+        "margin": 0.41
+      },
+      {
+        "label": "aug",
+        "sales": 37453.9,
+        "margin": 0.37
+      },
+      {
+        "label": "sept",
+        "sales": 39077.42,
+        "margin": 0.24
+      },
+      {
+        "label": "oct",
+        "sales": 11598.45,
+        "margin": 0.27
+      },
+      {
+        "label": "nov",
+        "sales": 24355.28,
+        "margin": 0.37
+      },
+      {
+        "label": "dec",
+        "sales": 13730.27,
+        "margin": 0.14
+      }
+    ],
+    "email": "grantbrewer@farmex.com",
+    "region": "Kentucky",
+    "lat": 42.550069,
+    "lng": -104.053576,
+    "site_admin": false
+  },
+  {
+    "display_name": "Craft Beard",
+    "id": "63846022-04d9-4b0b-82ff-25d7b5b7e97e",
+    "picture": "http://placehold.it/100x100",
+    "title": "AMET",
+    "sales": 252796.33,
+    "monthly_sales": [
+      {
+        "label": "jan",
+        "sales": 30732.34,
+        "margin": 0.18
+      },
+      {
+        "label": "feb",
+        "sales": 26884.68,
+        "margin": 0.35
+      },
+      {
+        "label": "mar",
+        "sales": 17440.27,
+        "margin": 0.35
+      },
+      {
+        "label": "apr",
+        "sales": 23314.32,
+        "margin": 0.14
+      },
+      {
+        "label": "may",
+        "sales": 35776.79,
+        "margin": 0.2
+      },
+      {
+        "label": "jun",
+        "sales": 17984.13,
+        "margin": 0.29
+      },
+      {
+        "label": "july",
+        "sales": 34445.24,
+        "margin": 0.22
+      },
+      {
+        "label": "aug",
+        "sales": 34435.78,
+        "margin": 0.12
+      },
+      {
+        "label": "sept",
+        "sales": 15391.14,
+        "margin": 0.3
+      },
+      {
+        "label": "oct",
+        "sales": 25618.42,
+        "margin": 0.26
+      },
+      {
+        "label": "nov",
+        "sales": 35715.13,
+        "margin": 0.45
+      },
+      {
+        "label": "dec",
+        "sales": 22167.22,
+        "margin": 0.33
+      }
+    ],
+    "email": "craftbeard@farmex.com",
+    "region": "Ohio",
+    "lat": 44.836193,
+    "lng": -97.457228,
+    "site_admin": false
+  },
+  {
+    "display_name": "Deanne Fitzgerald",
+    "id": "8d76d850-835a-49a3-a2fe-a4d8f2b1bd6d",
+    "picture": "http://placehold.it/100x100",
+    "title": "EIUSMOD",
+    "sales": 382147.32,
+    "monthly_sales": [
+      {
+        "label": "jan",
+        "sales": 29732.17,
+        "margin": 0.08
+      },
+      {
+        "label": "feb",
+        "sales": 21042.04,
+        "margin": 0.11
+      },
+      {
+        "label": "mar",
+        "sales": 22534.87,
+        "margin": 0.17
+      },
+      {
+        "label": "apr",
+        "sales": 36349.58,
+        "margin": 0.23
+      },
+      {
+        "label": "may",
+        "sales": 18060.58,
+        "margin": 0.24
+      },
+      {
+        "label": "jun",
+        "sales": 10025.02,
+        "margin": 0.42
+      },
+      {
+        "label": "july",
+        "sales": 8551.22,
+        "margin": 0.17
+      },
+      {
+        "label": "aug",
+        "sales": 19968.46,
+        "margin": 0.4
+      },
+      {
+        "label": "sept",
+        "sales": 15337.95,
+        "margin": 0.3
+      },
+      {
+        "label": "oct",
+        "sales": 18623.03,
+        "margin": 0.28
+      },
+      {
+        "label": "nov",
+        "sales": 16419.58,
+        "margin": 0.32
+      },
+      {
+        "label": "dec",
+        "sales": 15229.22,
+        "margin": 0.42
+      }
+    ],
+    "email": "deannefitzgerald@farmex.com",
+    "region": "Michigan",
+    "lat": 39.372579,
+    "lng": -80.21129,
     "site_admin": true
   },
   {
-    "display_name": "Nichole Melton",
-    "id": "ffb098c1-7483-4d4f-8644-c164f5830594",
+    "display_name": "Neva Owens",
+    "id": "f89529ab-0b97-4e6e-9c5e-2122d65d641c",
     "picture": "http://placehold.it/100x100",
-    "title": "ALIQUIP",
-    "sales": "$266,999.94",
-    "email": "nicholemelton@strozen.com",
-    "region": "Connecticut",
-    "lat": 30.420744,
-    "lng": -83.05305,
+    "title": "CULPA",
+    "sales": 234286.5,
+    "monthly_sales": [
+      {
+        "label": "jan",
+        "sales": 35690.68,
+        "margin": 0.05
+      },
+      {
+        "label": "feb",
+        "sales": 36656.19,
+        "margin": 0.38
+      },
+      {
+        "label": "mar",
+        "sales": 36565.46,
+        "margin": 0.04
+      },
+      {
+        "label": "apr",
+        "sales": 14565.3,
+        "margin": 0.02
+      },
+      {
+        "label": "may",
+        "sales": 23754.1,
+        "margin": 0.1
+      },
+      {
+        "label": "jun",
+        "sales": 11440.03,
+        "margin": 0.2
+      },
+      {
+        "label": "july",
+        "sales": 32346.54,
+        "margin": 0.1
+      },
+      {
+        "label": "aug",
+        "sales": 20752.78,
+        "margin": 0.27
+      },
+      {
+        "label": "sept",
+        "sales": 16406.75,
+        "margin": 0.22
+      },
+      {
+        "label": "oct",
+        "sales": 39365.92,
+        "margin": 0.16
+      },
+      {
+        "label": "nov",
+        "sales": 25371.99,
+        "margin": 0.44
+      },
+      {
+        "label": "dec",
+        "sales": 28956.76,
+        "margin": 0.39
+      }
+    ],
+    "email": "nevaowens@farmex.com",
+    "region": "Nevada",
+    "lat": 34.186082,
+    "lng": -103.383433,
+    "site_admin": true
+  },
+  {
+    "display_name": "Browning Mendez",
+    "id": "0f0962a1-f27a-4bb8-a942-bf16fea00b4e",
+    "picture": "http://placehold.it/100x100",
+    "title": "VOLUPTATE",
+    "sales": 367011.42,
+    "monthly_sales": [
+      {
+        "label": "jan",
+        "sales": 13171.36,
+        "margin": 0.36
+      },
+      {
+        "label": "feb",
+        "sales": 24418.74,
+        "margin": 0.32
+      },
+      {
+        "label": "mar",
+        "sales": 29952.33,
+        "margin": 0.43
+      },
+      {
+        "label": "apr",
+        "sales": 11781.12,
+        "margin": 0.21
+      },
+      {
+        "label": "may",
+        "sales": 29417.21,
+        "margin": 0.08
+      },
+      {
+        "label": "jun",
+        "sales": 26047.06,
+        "margin": 0.07
+      },
+      {
+        "label": "july",
+        "sales": 28998.97,
+        "margin": 0.42
+      },
+      {
+        "label": "aug",
+        "sales": 34938.14,
+        "margin": 0.22
+      },
+      {
+        "label": "sept",
+        "sales": 15055.74,
+        "margin": 0.26
+      },
+      {
+        "label": "oct",
+        "sales": 9178.36,
+        "margin": 0.41
+      },
+      {
+        "label": "nov",
+        "sales": 21878.73,
+        "margin": 0.03
+      },
+      {
+        "label": "dec",
+        "sales": 35976.95,
+        "margin": 0.41
+      }
+    ],
+    "email": "browningmendez@farmex.com",
+    "region": "Arkansas",
+    "lat": 34.675985,
+    "lng": -114.508489,
+    "site_admin": true
+  },
+  {
+    "display_name": "Miranda Hudson",
+    "id": "ba154fc2-3490-42cf-9225-3c7a5ad7eba6",
+    "picture": "http://placehold.it/100x100",
+    "title": "ET",
+    "sales": 323931.27,
+    "monthly_sales": [
+      {
+        "label": "jan",
+        "sales": 39999.24,
+        "margin": 0.43
+      },
+      {
+        "label": "feb",
+        "sales": 8935.54,
+        "margin": 0.44
+      },
+      {
+        "label": "mar",
+        "sales": 17263.96,
+        "margin": 0.08
+      },
+      {
+        "label": "apr",
+        "sales": 17175.65,
+        "margin": 0.18
+      },
+      {
+        "label": "may",
+        "sales": 36666.8,
+        "margin": 0.07
+      },
+      {
+        "label": "jun",
+        "sales": 22923.23,
+        "margin": 0.27
+      },
+      {
+        "label": "july",
+        "sales": 20076.49,
+        "margin": 0.19
+      },
+      {
+        "label": "aug",
+        "sales": 23871.24,
+        "margin": 0.22
+      },
+      {
+        "label": "sept",
+        "sales": 8406.11,
+        "margin": 0.4
+      },
+      {
+        "label": "oct",
+        "sales": 10041.48,
+        "margin": 0.45
+      },
+      {
+        "label": "nov",
+        "sales": 8541.26,
+        "margin": 0.2
+      },
+      {
+        "label": "dec",
+        "sales": 22321.7,
+        "margin": 0.36
+      }
+    ],
+    "email": "mirandahudson@farmex.com",
+    "region": "Palau",
+    "lat": 39.051818,
+    "lng": -93.230684,
+    "site_admin": true
+  },
+  {
+    "display_name": "Claire George",
+    "id": "d8e0780e-d76b-4620-ab09-61156ca7de4d",
+    "picture": "http://placehold.it/100x100",
+    "title": "FUGIAT",
+    "sales": 273922.96,
+    "monthly_sales": [
+      {
+        "label": "jan",
+        "sales": 24907.04,
+        "margin": 0.22
+      },
+      {
+        "label": "feb",
+        "sales": 15483.7,
+        "margin": 0.1
+      },
+      {
+        "label": "mar",
+        "sales": 10766.07,
+        "margin": 0.42
+      },
+      {
+        "label": "apr",
+        "sales": 23032.02,
+        "margin": 0.38
+      },
+      {
+        "label": "may",
+        "sales": 27418.96,
+        "margin": 0.38
+      },
+      {
+        "label": "jun",
+        "sales": 19735.73,
+        "margin": 0.07
+      },
+      {
+        "label": "july",
+        "sales": 9454.84,
+        "margin": 0.12
+      },
+      {
+        "label": "aug",
+        "sales": 14263.31,
+        "margin": 0.16
+      },
+      {
+        "label": "sept",
+        "sales": 24577.18,
+        "margin": 0.33
+      },
+      {
+        "label": "oct",
+        "sales": 11156.77,
+        "margin": 0.13
+      },
+      {
+        "label": "nov",
+        "sales": 8250.64,
+        "margin": 0.18
+      },
+      {
+        "label": "dec",
+        "sales": 39174.35,
+        "margin": 0.21
+      }
+    ],
+    "email": "clairegeorge@farmex.com",
+    "region": "Oregon",
+    "lat": 33.753602,
+    "lng": -90.950739,
+    "site_admin": true
+  },
+  {
+    "display_name": "Coffey Gilmore",
+    "id": "0059c018-8f8f-403c-9cb8-42253f4d326a",
+    "picture": "http://placehold.it/100x100",
+    "title": "COMMODO",
+    "sales": 130419.1,
+    "monthly_sales": [
+      {
+        "label": "jan",
+        "sales": 32433.68,
+        "margin": 0.21
+      },
+      {
+        "label": "feb",
+        "sales": 23714.92,
+        "margin": 0.14
+      },
+      {
+        "label": "mar",
+        "sales": 36587.9,
+        "margin": 0.18
+      },
+      {
+        "label": "apr",
+        "sales": 28178.12,
+        "margin": 0.09
+      },
+      {
+        "label": "may",
+        "sales": 38665.15,
+        "margin": 0.29
+      },
+      {
+        "label": "jun",
+        "sales": 19552.97,
+        "margin": 0.23
+      },
+      {
+        "label": "july",
+        "sales": 26165.26,
+        "margin": 0.05
+      },
+      {
+        "label": "aug",
+        "sales": 12984.9,
+        "margin": 0.08
+      },
+      {
+        "label": "sept",
+        "sales": 10196.86,
+        "margin": 0.33
+      },
+      {
+        "label": "oct",
+        "sales": 29433.95,
+        "margin": 0.05
+      },
+      {
+        "label": "nov",
+        "sales": 9558.66,
+        "margin": 0.15
+      },
+      {
+        "label": "dec",
+        "sales": 27747.99,
+        "margin": 0.1
+      }
+    ],
+    "email": "coffeygilmore@farmex.com",
+    "region": "North Dakota",
+    "lat": 37.265547,
+    "lng": -116.305299,
     "site_admin": false
+  },
+  {
+    "display_name": "Davenport Atkins",
+    "id": "01b24efa-2a49-4e5e-a550-2795b050b508",
+    "picture": "http://placehold.it/100x100",
+    "title": "LOREM",
+    "sales": 341438.52,
+    "monthly_sales": [
+      {
+        "label": "jan",
+        "sales": 27804.46,
+        "margin": 0.44
+      },
+      {
+        "label": "feb",
+        "sales": 13002.59,
+        "margin": 0.17
+      },
+      {
+        "label": "mar",
+        "sales": 36604.53,
+        "margin": 0.03
+      },
+      {
+        "label": "apr",
+        "sales": 11548.81,
+        "margin": 0.04
+      },
+      {
+        "label": "may",
+        "sales": 33060.75,
+        "margin": 0.28
+      },
+      {
+        "label": "jun",
+        "sales": 22624.61,
+        "margin": 0.1
+      },
+      {
+        "label": "july",
+        "sales": 22010.24,
+        "margin": 0.42
+      },
+      {
+        "label": "aug",
+        "sales": 16372.77,
+        "margin": 0.17
+      },
+      {
+        "label": "sept",
+        "sales": 11345.32,
+        "margin": 0.13
+      },
+      {
+        "label": "oct",
+        "sales": 19048.04,
+        "margin": 0.06
+      },
+      {
+        "label": "nov",
+        "sales": 10598.67,
+        "margin": 0.41
+      },
+      {
+        "label": "dec",
+        "sales": 19252.98,
+        "margin": 0.21
+      }
+    ],
+    "email": "davenportatkins@farmex.com",
+    "region": "Marshall Islands",
+    "lat": 32.12929,
+    "lng": -93.978897,
+    "site_admin": false
+  },
+  {
+    "display_name": "Peggy Little",
+    "id": "475f8ae9-328d-4d46-a5f2-fd95a3aa8500",
+    "picture": "http://placehold.it/100x100",
+    "title": "COMMODO",
+    "sales": 287700.21,
+    "monthly_sales": [
+      {
+        "label": "jan",
+        "sales": 9652.46,
+        "margin": 0.14
+      },
+      {
+        "label": "feb",
+        "sales": 38432.44,
+        "margin": 0.06
+      },
+      {
+        "label": "mar",
+        "sales": 19451.7,
+        "margin": 0.32
+      },
+      {
+        "label": "apr",
+        "sales": 22380.29,
+        "margin": 0.02
+      },
+      {
+        "label": "may",
+        "sales": 34056.76,
+        "margin": 0.45
+      },
+      {
+        "label": "jun",
+        "sales": 36015.67,
+        "margin": 0.16
+      },
+      {
+        "label": "july",
+        "sales": 31518.02,
+        "margin": 0.19
+      },
+      {
+        "label": "aug",
+        "sales": 32592.35,
+        "margin": 0.06
+      },
+      {
+        "label": "sept",
+        "sales": 33705.45,
+        "margin": 0.04
+      },
+      {
+        "label": "oct",
+        "sales": 35396.86,
+        "margin": 0.24
+      },
+      {
+        "label": "nov",
+        "sales": 20314.8,
+        "margin": 0.34
+      },
+      {
+        "label": "dec",
+        "sales": 19326.88,
+        "margin": 0.26
+      }
+    ],
+    "email": "peggylittle@farmex.com",
+    "region": "Puerto Rico",
+    "lat": 31.264673,
+    "lng": -106.86545,
+    "site_admin": false
+  },
+  {
+    "display_name": "Reeves Simmons",
+    "id": "bd6a51ff-8f17-4483-b3b4-020e3995c9e5",
+    "picture": "http://placehold.it/100x100",
+    "title": "DOLORE",
+    "sales": 187213.35,
+    "monthly_sales": [
+      {
+        "label": "jan",
+        "sales": 17051.36,
+        "margin": 0.31
+      },
+      {
+        "label": "feb",
+        "sales": 21567.07,
+        "margin": 0.29
+      },
+      {
+        "label": "mar",
+        "sales": 18496.89,
+        "margin": 0.28
+      },
+      {
+        "label": "apr",
+        "sales": 29005.98,
+        "margin": 0.02
+      },
+      {
+        "label": "may",
+        "sales": 39831.04,
+        "margin": 0.02
+      },
+      {
+        "label": "jun",
+        "sales": 38535.05,
+        "margin": 0.45
+      },
+      {
+        "label": "july",
+        "sales": 22486.52,
+        "margin": 0.39
+      },
+      {
+        "label": "aug",
+        "sales": 36867.14,
+        "margin": 0.28
+      },
+      {
+        "label": "sept",
+        "sales": 8729.22,
+        "margin": 0.24
+      },
+      {
+        "label": "oct",
+        "sales": 37958.72,
+        "margin": 0.07
+      },
+      {
+        "label": "nov",
+        "sales": 25906.52,
+        "margin": 0.45
+      },
+      {
+        "label": "dec",
+        "sales": 23998.16,
+        "margin": 0.34
+      }
+    ],
+    "email": "reevessimmons@farmex.com",
+    "region": "Northern Mariana Islands",
+    "lat": 30.419599,
+    "lng": -91.143021,
+    "site_admin": false
+  },
+  {
+    "display_name": "Butler Daniel",
+    "id": "0d78d7bf-5538-42d7-8433-004c3f3d3db4",
+    "picture": "http://placehold.it/100x100",
+    "title": "EU",
+    "sales": 329615.39,
+    "monthly_sales": [
+      {
+        "label": "jan",
+        "sales": 39427.77,
+        "margin": 0.41
+      },
+      {
+        "label": "feb",
+        "sales": 16486.31,
+        "margin": 0.28
+      },
+      {
+        "label": "mar",
+        "sales": 20065.63,
+        "margin": 0.37
+      },
+      {
+        "label": "apr",
+        "sales": 22900.91,
+        "margin": 0.44
+      },
+      {
+        "label": "may",
+        "sales": 11688.07,
+        "margin": 0.14
+      },
+      {
+        "label": "jun",
+        "sales": 14355.39,
+        "margin": 0.13
+      },
+      {
+        "label": "july",
+        "sales": 10984.33,
+        "margin": 0.1
+      },
+      {
+        "label": "aug",
+        "sales": 23040.83,
+        "margin": 0.31
+      },
+      {
+        "label": "sept",
+        "sales": 31723.15,
+        "margin": 0.02
+      },
+      {
+        "label": "oct",
+        "sales": 13471.13,
+        "margin": 0.28
+      },
+      {
+        "label": "nov",
+        "sales": 32333.55,
+        "margin": 0.06
+      },
+      {
+        "label": "dec",
+        "sales": 14156.76,
+        "margin": 0.2
+      }
+    ],
+    "email": "butlerdaniel@farmex.com",
+    "region": "Washington",
+    "lat": 33.332439,
+    "lng": -92.32757,
+    "site_admin": true
   }
 ]

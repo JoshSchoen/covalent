@@ -31,6 +31,7 @@ import { EditorTemplateComponent } from './templates/editor/editor.component';
 import { appRoutes, appRoutingProviders } from './app.routes';
 
 import { SalesPersonService } from '../services/salesperson.service';
+import { MonthlySales } from '../services/monthlysales.service';
 
 import { AgmCoreModule } from 'angular2-google-maps/core';
 
@@ -94,6 +95,7 @@ const httpInterceptorProviders: Type<IHttpInterceptor>[] = [
     httpInterceptorProviders,
     Title,
     SalesPersonService,
+    MonthlySales,
   ], // additional providers needed for this module
   entryComponents: [ ],
   bootstrap: [ AppComponent ],

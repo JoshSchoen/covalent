@@ -5,3 +5,4 @@ export { AlertsService } from './alerts.service';
 export { FeaturesService, IFeature } from './features.service';
 export { BargraphService } from './bargraph.service';
 export { SalesPersonService } from './salesperson.service';
+export { MonthlySales } from './monthlysales.service';

@@ -20,7 +20,6 @@ export class GoogleMap {
   constructor(private _titleService: Title,
     private _loadingService: TdLoadingService,
     private _salesPeople: SalesPersonService,) {
-                console.log('sales');
               }
 
     // google maps zoom level
@@ -36,10 +35,8 @@ edited : boolean = false;
 mark : String;
 
 clickedMarker(label: string, index: number) {
-   console.log(`clicked the marker: ${label || index}`);
    this.edited = true;
    this.mark = `clicked the marker: ${label}`;
-   this.markers = null;
  }
 
  ngAfterViewInit(): void {
@@ -50,7 +47,6 @@ clickedMarker(label: string, index: number) {
      this._salesPeople.query().subscribe((salesPeople: any) => {
      this.salesPeople = salesPeople;
      this.markers = salesPeople;
-     console.log(salesPeople);
      setTimeout(() => {
        this._loadingService.resolve('salesPerson.load');
      }, 750);

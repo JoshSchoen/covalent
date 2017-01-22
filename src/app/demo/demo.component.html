@@ -9,21 +9,23 @@
       <div layout="column" layout-gt-xs="row">
         <div flex-gt-xs="60">
           <md-card>
-            <md-card-title>Combo Bar Chart</md-card-title>
-            <md-card-subtitle>Sales 1 vs Sales 2</md-card-subtitle>
+            <md-card-title>Overall Sales</md-card-title>
+            <md-card-subtitle>Total Sales by Month</md-card-subtitle>
             <md-divider></md-divider>
             <div style="height:400px;">
-<td-charts>
-  <td-chart-line #chartLine3 dataSrc="data/data.tsv"
-               bottomAxis="col1"
-               [columns]="['col2', 'col3','col4']"
-               [titles]="['New York','San Francisco', 'Austin']"
-               [colors]="['#304FFE', '#00B8D4', '#FF3D00']"
-               [transition]="true"
-               transitionDuration="1000"
-               transitionDelay="2000">
-               <td-axis-y-left [link]="chartLine3" [ticks]="true" [show]="true" [grid]="true" legend="Sales Line"></td-axis-y-left>
-  </td-chart-line>
+<td-charts [margin]="{left:90}">
+  <td-axis-x [link]="chartBar1" [ticks]="true" [show]="true" [grid]="false"></td-axis-x>
+  <td-axis-y-left [link]="chartBar1" [ticks]="true" [show]="true" [grid]="true"></td-axis-y-left>
+    <td-chart-bar #chartBar1
+                  [colors]="['blue', 'blue']"
+                  [data]="table"
+                  [padding]="0.1"
+                  bottomAxis="label"
+                  columns="sales"
+                  [transition]="true"
+                  transitionDuration="1000"
+                  transitionDelay="3000">
+    </td-chart-bar>
 </td-charts>
             </div>
           </md-card>
