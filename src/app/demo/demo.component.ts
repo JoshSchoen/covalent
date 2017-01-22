@@ -23,10 +23,6 @@ export class DemoComponent implements AfterViewInit {
   clicked($event) : void {
     console.log($event);
   }
-
-
-
-
     columns: ITdDataTableColumn[] = [
       { name: 'picture', label: 'Photo'},
       { name: 'display_name', label: 'Name', tooltip: 'Stock Keeping Unit' },
