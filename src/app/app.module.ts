@@ -2,7 +2,7 @@ import { NgModule, Type} from '@angular/core';
 import { BrowserModule, Title }  from '@angular/platform-browser';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-
+import { CovalentDataTableModule } from '@covalent/core';
 import { CovalentCoreModule } from '@covalent/core';
 import { CovalentHttpModule, IHttpInterceptor } from '@covalent/http';
 import { CovalentHighlightModule } from '@covalent/highlight';
@@ -29,6 +29,8 @@ import { DashboardTemplateComponent } from './templates/dashboard/dashboard.comp
 import { EmailTemplateComponent } from './templates/email/email.component';
 import { EditorTemplateComponent } from './templates/editor/editor.component';
 import { appRoutes, appRoutingProviders } from './app.routes';
+
+import { SalesPersonService } from '../services/salesperson.service';
 
 import { AgmCoreModule } from 'angular2-google-maps/core';
 
@@ -70,6 +72,7 @@ const httpInterceptorProviders: Type<IHttpInterceptor>[] = [
   imports: [
     BrowserModule,
     CovalentCoreModule.forRoot(),
+    CovalentDataTableModule.forRoot(),
     CovalentChartsModule.forRoot(),
     CovalentHttpModule.forRoot({
       inteceptors: [{
@@ -90,6 +93,7 @@ const httpInterceptorProviders: Type<IHttpInterceptor>[] = [
     appRoutingProviders,
     httpInterceptorProviders,
     Title,
+    SalesPersonService,
   ], // additional providers needed for this module
   entryComponents: [ ],
   bootstrap: [ AppComponent ],

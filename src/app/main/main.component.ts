@@ -11,7 +11,7 @@ export class MainComponent {
   routes: Object[] = [{
     title: 'Demo Dashboard',
     route: '/',
-    icon: 'dashboard',
+    icon: 'widgets',
   }, {
     title: 'Dashboard',
     route: '/overview',

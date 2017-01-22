@@ -1,6 +1,7 @@
 import { Component, AfterViewInit, NgModule } from '@angular/core';
 
 import { Title }     from '@angular/platform-browser';
+import { TdLoadingService } from '@covalent/core';
 import { SalesPersonService } from '../../services';
 
 import {
@@ -16,49 +17,46 @@ import {
 
 export class GoogleMap {
 
-    // google maps zoom level
-zoom: number = 8;
+  constructor(private _titleService: Title,
+    private _loadingService: TdLoadingService,
+    private _salesPeople: SalesPersonService,) {
+                console.log('sales');
+              }
 
+    // google maps zoom level
+zoom: number = 4;
+salesPeople: any[];
 // initial center position for the map
 title: string = "Sales by Location";
 subtitle: string = "Regional Manager Comparisons";
-lat: number = 51.678418;
-lng: number = 7.809007;
-
-markers: any[] = [
-  {
-    lat: 51.673858,
-    lng: 7.815982,
-    label: 'B',
-    content: 'This is content b',
-    draggable: true
-  },
-  {
-    lat: 51.373858,
-    lng: 7.215982,
-    label: 'C',
-    content: 'This is content c',
-    draggable: false
-  },
-  {
-    lat: 51.723858,
-    lng: 7.895982,
-    label: 'A',
-    content: 'This is content a',
-    draggable: true
-  }
-]
-
+lat: number = 38.242959;
+lng: number = -98.269911;
+markers: any[];
+edited : boolean = false;
+mark : String;
 
 clickedMarker(label: string, index: number) {
    console.log(`clicked the marker: ${label || index}`);
-   //this.edited = true;
-   //this.mark = `clicked the marker: ${label}`;
-
+   this.edited = true;
+   this.mark = `clicked the marker: ${label}`;
+   this.markers = null;
  }
 
-  ngAfterViewInit(): void {
+ ngAfterViewInit(): void {
 
-  }
+     this._titleService.setTitle( "Josh's Demo Dashboard" );
+
+     this._loadingService.register('salesPerson.load');
+     this._salesPeople.query().subscribe((salesPeople: any) => {
+     this.salesPeople = salesPeople;
+     this.markers = salesPeople;
+     console.log(salesPeople);
+     setTimeout(() => {
+       this._loadingService.resolve('salesPerson.load');
+     }, 750);
+   }, (error: Error) => {
+     console.log(error);
+   });
+}
 
 }

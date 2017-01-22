@@ -2,7 +2,7 @@ import { Component, AfterViewInit } from '@angular/core';
 
 import { Title }     from '@angular/platform-browser';
 
-import { TdDataTableService, TdLoadingService, TdDataTableSortingOrder, ITdDataTableSortChangeEvent, ITdDataTableColumn  } from '@covalent/core';
+import { TdDataTableService, TdLoadingService, TdDataTableSortingOrder, ITdDataTableSortChangeEvent, ITdDataTableColumn } from '@covalent/core';
 import { IPageChangeEvent } from '@covalent/core';
 import { SalesPersonService } from '../../services';
 
@@ -13,16 +13,23 @@ import { SalesPersonService } from '../../services';
 })
 export class DemoComponent implements AfterViewInit {
 
+  constructor(private _titleService: Title,
+              private _loadingService: TdLoadingService,
+              private _salesPeople: SalesPersonService,
+              private _dataTableService: TdDataTableService) {}
+
   clicked($event) : void {
     console.log($event);
   }
 
     columns: ITdDataTableColumn[] = [
+      { name: 'picture', label: 'Photo'},
       { name: 'display_name', label: 'Name', tooltip: 'Stock Keeping Unit' },
+      { name: 'title', label: 'Title'},
       { name: 'id', label: 'ID' },
       { name: 'sales', label: 'Sales (US$)'},
       { name: 'email', label: 'Email' },
-      { name: 'region', label: 'Region' },
+      { name: 'region', label: 'State' },
       { name: 'site_admin', label: 'Admin' },
     ];
 
@@ -36,11 +43,6 @@ export class DemoComponent implements AfterViewInit {
   pageSize: number = 5;
   sortBy: string = 'sku';
   sortOrder: TdDataTableSortingOrder = TdDataTableSortingOrder.Descending;
-
-  constructor(private _titleService: Title,
-              private _loadingService: TdLoadingService,
-              private _salesPeople: SalesPersonService,
-              private _dataTableService: TdDataTableService) {}
 
             sort(sortEvent: ITdDataTableSortChangeEvent): void {
               this.sortBy = sortEvent.name;
