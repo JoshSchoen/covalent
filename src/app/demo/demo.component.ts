@@ -1,5 +1,5 @@
-import { Component, AfterViewInit } from '@angular/core';
-
+import { Component, AfterViewInit, Input } from '@angular/core';
+import { GoogleMap } from '../geo/geo.component';
 import { Title }     from '@angular/platform-browser';
 
 import { TdDataTableService, TdLoadingService, TdDataTableSortingOrder, ITdDataTableSortChangeEvent, ITdDataTableColumn } from '@covalent/core';
@@ -10,9 +10,11 @@ import { SalesPersonService } from '../../services';
 @Component({
   selector: 'demo-dashboard',
   templateUrl: './demo.component.html',
-  viewProviders: [ SalesPersonService ],
+  viewProviders: [ SalesPersonService ]
 })
 export class DemoComponent implements AfterViewInit {
+//@Input() changed: SalesPersonService;
+
 
   constructor(private _titleService: Title,
               private _loadingService: TdLoadingService,
@@ -20,9 +22,6 @@ export class DemoComponent implements AfterViewInit {
               private _monthlySales: SalesPersonService,
               private _dataTableService: TdDataTableService) {}
 
-  clicked($event) : void {
-    console.log($event);
-  }
     columns: ITdDataTableColumn[] = [
       { name: 'picture', label: 'Photo'},
       { name: 'display_name', label: 'Name', tooltip: 'Stock Keeping Unit' },
@@ -35,68 +34,92 @@ export class DemoComponent implements AfterViewInit {
 
   salesPeople: any[];
   jsonData: any[];
+  salesTable : number[];
+  markersChange : Object[];
 
+  changed(changedCharacter: any) {
+    if (changedCharacter) {
+      //this.markersChange = changedCharacter.monthy_sales;
+      console.log(changedCharacter);
+      this.salesTable = null;
+      this.table = null;
+      this.changer(changedCharacter);
 
-  table: any = [
+    }
+  }
+changer(changedCharacter: any) {
+  this.salesTable = changedCharacter;
+}
+
+table: any = [
     {
       "label": "jan",
-      "sales": 431742.57,
-      "margin": 0.28
+      "margin": 0.28,
+      "sales": 431742.57
+
     },
     {
       "label": "feb",
-      "sales": 540164.33,
-      "margin": 0.38
+      "margin": 0.38,
+      "sales": 540164.33
+
     },
     {
       "label": "mar",
-      "sales": 625675.83,
-      "margin": 0.07
+      "margin": 0.07,
+      "sales": 625675.83
+
     },
     {
       "label": "apr",
-      "sales": 583686.79,
-      "margin": 0.32
+      "margin": 0.32,
+      "sales": 583686.79
+
     },
     {
       "label": "may",
-      "sales": 482767.13,
-      "margin": 0.28
+      "margin": 0.28,
+      "sales": 482767.13
+
     },
     {
       "label": "jun",
-      "sales": 466579.3,
-      "margin": 0.09
+      "margin": 0.09,
+      "sales": 466579.3
+
     },
     {
       "label": "july",
-      "sales": 414995.84,
-      "margin": 0.23
+      "margin": 0.23,
+      "sales": 414995.84
+
     },
     {
       "label": "aug",
-      "sales": 677844.25,
-      "margin": 0.43
+      "margin": 0.43,
+      "sales": 677844.25
     },
     {
       "label": "sept",
-      "sales": 504764.31,
-      "margin": 0.08
+      "margin": 0.08,
+      "sales": 504764.31
+
     },
     {
       "label": "oct",
-      "sales": 493825.46,
-      "margin": 0.44
+      "margin": 0.44,
+      "sales": 493825.46
+
     },
     {
       "label": "nov",
-      "sales": 616150.63,
-      "margin": 0.33
+      "margin": 0.33,
+      "sales": 616150.63
     },
     {
       "label": "dec",
-      "sales": 653582.86,
-      "margin": 0.09
+      "margin": 0.09,
+      "sales": 653582.86
     }];
 
 
@@ -145,7 +168,7 @@ export class DemoComponent implements AfterViewInit {
 
 
     ngAfterViewInit(): void {
-
+        console.log(this.table);
         this._titleService.setTitle( "Josh's Demo Dashboard" );
 
         this._loadingService.register('salesPerson.load');

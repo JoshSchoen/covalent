@@ -1,6 +1,8 @@
 <td-layout-nav logo="assets:covalent">
+
+
   <div toolbar-content layout="row" layout-align="center center" flex>
-    <span>Quickstart</span>
+    <span>Josh Schoen's Demo</span>
     <span flex></span>
     <a md-icon-button mdTooltip="Docs" href="https://teradata.github.io/covalent/" target="_blank"><md-icon>chrome_reader_mode</md-icon></a>
     <a md-icon-button mdTooltip="Github" href="https://github.com/teradata/covalent" target="_blank"><md-icon svgIcon="assets:github"></md-icon></a>
@@ -9,15 +11,17 @@
       <div layout="column" layout-gt-xs="row">
         <div flex-gt-xs="60">
           <md-card>
-            <md-card-title>Overall Sales</md-card-title>
+
+            <md-card-title><span *ngIf="salesTable">{{salesTable.display_name}} </span><span *ngIf="!salesTable">Overall</span> Sales</md-card-title>
             <md-card-subtitle>Total Sales by Month</md-card-subtitle>
             <md-divider></md-divider>
             <div style="height:400px;">
-<td-charts [margin]="{left:90}">
+
+<td-charts [margin]="{left:90}" *ngIf="table">
   <td-axis-x [link]="chartBar1" [ticks]="true" [show]="true" [grid]="false"></td-axis-x>
   <td-axis-y-left [link]="chartBar1" [ticks]="true" [show]="true" [grid]="true"></td-axis-y-left>
     <td-chart-bar #chartBar1
-                  [colors]="['blue', 'blue']"
+                  [colors]="['amber', 'orange']"
                   [data]="table"
                   [padding]="0.1"
                   bottomAxis="label"
@@ -27,12 +31,28 @@
                   transitionDelay="3000">
     </td-chart-bar>
 </td-charts>
+
+<td-charts [margin]="{left:90}" *ngIf="salesTable">
+  <td-axis-x [link]="chartBar2" [ticks]="true" [show]="true" [grid]="false"></td-axis-x>
+  <td-axis-y-left [link]="chartBar2" [ticks]="true" [show]="true" [grid]="true"></td-axis-y-left>
+    <td-chart-bar #chartBar2
+                  [colors]="['amber', 'orange']"
+                  [data]="salesTable.monthly_sales"
+                  [padding]="0.1"
+                  bottomAxis="label"
+                  columns="sales"
+                  [transition]="true"
+                  transitionDuration="1000"
+                  transitionDelay="3000">
+    </td-chart-bar>
+</td-charts>
+
             </div>
           </md-card>
     </div>
     <div flex-gt-xs="40">
       <md-card>
-        <geo-pane></geo-pane>
+        <geo-pane (changed)=changed($event)></geo-pane>
       </md-card>
     </div>
     </div>

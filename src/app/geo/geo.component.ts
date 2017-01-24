@@ -1,4 +1,4 @@
-import { Component, AfterViewInit, NgModule } from '@angular/core';
+import { Component, AfterViewInit, NgModule, Input, Output, EventEmitter } from '@angular/core';
 
 import { Title }     from '@angular/platform-browser';
 import { TdLoadingService } from '@covalent/core';
@@ -25,6 +25,8 @@ export class GoogleMap {
     // google maps zoom level
 zoom: number = 4;
 salesPeople: any[];
+@Output() changed : EventEmitter<any> = new EventEmitter();
+
 // initial center position for the map
 title: string = "Sales by Location";
 subtitle: string = "Regional Manager Comparisons";
@@ -34,9 +36,13 @@ markers: any[];
 edited : boolean = false;
 mark : String;
 
-clickedMarker(label: string, index: number) {
+selected: any[];
+
+clickedMarker(salesPeople: any) {
    this.edited = true;
-   this.mark = `clicked the marker: ${label}`;
+   this.selected = salesPeople;
+   this.changed.emit(salesPeople);
+   console.log(salesPeople);
  }
 
  ngAfterViewInit(): void {
