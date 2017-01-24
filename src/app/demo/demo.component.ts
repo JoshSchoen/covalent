@@ -36,20 +36,28 @@ export class DemoComponent implements AfterViewInit {
   jsonData: any[];
   salesTable : number[];
   markersChange : Object[];
-
-  changed(changedCharacter: any) {
+  singleSales : String = 'true;'
+  changed(changedCharacter: any){
     if (changedCharacter) {
+      console.log(this.singleSales);
+      if (this.singleSales) {
+        this.singleSales = null;
+      }
+      else {
+        this.singleSales ='true';
+      }
+
       //this.markersChange = changedCharacter.monthy_sales;
       console.log(changedCharacter);
       this.salesTable = null;
       this.table = null;
-      this.changer(changedCharacter);
+      this.salesTable = changedCharacter;
+
+      //setTimeout(() => { this.selectedPane = v.id; }, 0);
 
     }
   }
-changer(changedCharacter: any) {
-  this.salesTable = changedCharacter;
-}
+
 
 table: any = [
     {

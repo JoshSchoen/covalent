@@ -16,8 +16,8 @@
             <md-card-subtitle>Total Sales by Month</md-card-subtitle>
             <md-divider></md-divider>
             <div style="height:400px;">
-
-<td-charts [margin]="{left:90}" *ngIf="table">
+<div id="ct">
+<td-charts [margin]="" *ngIf="!salesTable">
   <td-axis-x [link]="chartBar1" [ticks]="true" [show]="true" [grid]="false"></td-axis-x>
   <td-axis-y-left [link]="chartBar1" [ticks]="true" [show]="true" [grid]="true"></td-axis-y-left>
     <td-chart-bar #chartBar1
@@ -31,8 +31,11 @@
                   transitionDelay="3000">
     </td-chart-bar>
 </td-charts>
+</div>
+<div *ngIf="salesTable && singleSales == 'true'">
+  yes {{singleSales}}
+<td-charts [margin]="">
 
-<td-charts [margin]="{left:90}" *ngIf="salesTable">
   <td-axis-x [link]="chartBar2" [ticks]="true" [show]="true" [grid]="false"></td-axis-x>
   <td-axis-y-left [link]="chartBar2" [ticks]="true" [show]="true" [grid]="true"></td-axis-y-left>
     <td-chart-bar #chartBar2
@@ -46,7 +49,25 @@
                   transitionDelay="3000">
     </td-chart-bar>
 </td-charts>
+</div>
+<div *ngIf="salesTable && !singleSales">
+    no {{singleSales}}
+<td-charts [margin]="">
 
+  <td-axis-x [link]="chartBar4" [ticks]="true" [show]="true" [grid]="false"></td-axis-x>
+  <td-axis-y-left [link]="chartBar4" [ticks]="true" [show]="true" [grid]="true"></td-axis-y-left>
+    <td-chart-bar #chartBar4
+                  [colors]="['amber', 'orange']"
+                  [data]="salesTable.monthly_sales"
+                  [padding]="0.1"
+                  bottomAxis="label"
+                  columns="sales"
+                  [transition]="true"
+                  transitionDuration="1000"
+                  transitionDelay="3000">
+    </td-chart-bar>
+</td-charts>
+</div>
             </div>
           </md-card>
     </div>
