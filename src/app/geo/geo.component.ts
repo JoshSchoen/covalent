@@ -1,4 +1,4 @@
-import { Component, AfterViewInit, NgModule, Input, Output, EventEmitter } from '@angular/core';
+import { Component, AfterViewInit, Output, EventEmitter } from '@angular/core';
 
 import { Title }     from '@angular/platform-browser';
 import { TdLoadingService } from '@covalent/core';
@@ -12,7 +12,7 @@ import {
 @Component({
   selector: 'geo-pane',
   templateUrl: './geo.component.html',
-  styleUrls: ['./geo.component.css']
+  styleUrls: ['./geo.component.scss']
 })
 
 export class GoogleMap {
@@ -22,9 +22,10 @@ export class GoogleMap {
     private _salesPeople: SalesPersonService,) {
               }
 
-    // google maps zoom level
+// google maps zoom level
 zoom: number = 4;
 salesPeople: any[];
+//sets changed to emit to parent component
 @Output() changed : EventEmitter<any> = new EventEmitter();
 
 // initial center position for the map
@@ -35,14 +36,14 @@ lng: number = -98.269911;
 markers: any[];
 edited : boolean = false;
 mark : String;
-
 selected: any[];
 
+//triggers chart chart change and dialog
 clickedMarker(salesPeople: any) {
    this.edited = true;
    this.selected = salesPeople;
+    //emits hange to parent component intialize swap of the bar chart
    this.changed.emit(salesPeople);
-   console.log(salesPeople);
  }
 
  ngAfterViewInit(): void {

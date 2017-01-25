@@ -1,119 +1,87 @@
 <td-layout-nav logo="assets:covalent">
-
-
   <div toolbar-content layout="row" layout-align="center center" flex>
     <span>Josh Schoen's Demo</span>
     <span flex></span>
-    <a md-icon-button mdTooltip="Docs" href="https://teradata.github.io/covalent/" target="_blank"><md-icon>chrome_reader_mode</md-icon></a>
-    <a md-icon-button mdTooltip="Github" href="https://github.com/teradata/covalent" target="_blank"><md-icon svgIcon="assets:github"></md-icon></a>
+    <a md-icon-button mdTooltip="Docs" href="https://teradata.github.io/covalent/" target="_blank">
+      <md-icon>chrome_reader_mode</md-icon>
+    </a>
+    <a md-icon-button mdTooltip="Github" href="https://github.com/teradata/covalent" target="_blank">
+      <md-icon svgIcon="assets:github"></md-icon>
+    </a>
   </div>
   <div class="md-content" class="inset">
-      <div layout="column" layout-gt-xs="row">
-        <div flex-gt-xs="60">
-          <md-card>
+    <div layout="column" layout-gt-xs="row">
+      <div flex-gt-xs="60">
+        <md-card>
 
-            <md-card-title><span *ngIf="salesTable">{{salesTable.display_name}} </span><span *ngIf="!salesTable">Overall</span> Sales</md-card-title>
-            <md-card-subtitle>Total Sales by Month</md-card-subtitle>
-            <md-divider></md-divider>
-            <div style="height:400px;">
-<div id="ct">
-<td-charts [margin]="" *ngIf="!salesTable">
-  <td-axis-x [link]="chartBar1" [ticks]="true" [show]="true" [grid]="false"></td-axis-x>
-  <td-axis-y-left [link]="chartBar1" [ticks]="true" [show]="true" [grid]="true"></td-axis-y-left>
-    <td-chart-bar #chartBar1
-                  [colors]="['amber', 'orange']"
-                  [data]="table"
-                  [padding]="0.1"
-                  bottomAxis="label"
-                  columns="sales"
-                  [transition]="true"
-                  transitionDuration="1000"
-                  transitionDelay="3000">
-    </td-chart-bar>
-</td-charts>
-</div>
-<div *ngIf="salesTable && singleSales == 'true'">
-  yes {{singleSales}}
-<td-charts [margin]="">
+          <md-card-title><span *ngIf="salesTable">{{salesTable.display_name}} </span><span *ngIf="!salesTable">Overall</span> Sales</md-card-title>
+          <md-card-subtitle>Total Sales by Month</md-card-subtitle>
+          <md-divider></md-divider>
 
-  <td-axis-x [link]="chartBar2" [ticks]="true" [show]="true" [grid]="false"></td-axis-x>
-  <td-axis-y-left [link]="chartBar2" [ticks]="true" [show]="true" [grid]="true"></td-axis-y-left>
-    <td-chart-bar #chartBar2
-                  [colors]="['amber', 'orange']"
-                  [data]="salesTable.monthly_sales"
-                  [padding]="0.1"
-                  bottomAxis="label"
-                  columns="sales"
-                  [transition]="true"
-                  transitionDuration="1000"
-                  transitionDelay="3000">
-    </td-chart-bar>
-</td-charts>
-</div>
-<div *ngIf="salesTable && !singleSales">
-    no {{singleSales}}
-<td-charts [margin]="">
+          <div class="demo-bar-charts">
+            <td-charts [margin]="90" *ngIf="!salesTable">
+              <td-axis-x [link]="chartBar1" [ticks]="true" [show]="true" [grid]="false"></td-axis-x>
+              <td-axis-y-left [link]="chartBar1" [ticks]="true" [show]="true" [grid]="true"></td-axis-y-left>
+              <td-chart-bar #chartBar1 [colors]="['amber', 'orange']" [data]="table" [padding]="0.1" bottomAxis="label" columns="sales" [transition]="true" transitionDuration="1000" transitionDelay="3000">
+              </td-chart-bar>
+            </td-charts>
 
-  <td-axis-x [link]="chartBar4" [ticks]="true" [show]="true" [grid]="false"></td-axis-x>
-  <td-axis-y-left [link]="chartBar4" [ticks]="true" [show]="true" [grid]="true"></td-axis-y-left>
-    <td-chart-bar #chartBar4
-                  [colors]="['amber', 'orange']"
-                  [data]="salesTable.monthly_sales"
-                  [padding]="0.1"
-                  bottomAxis="label"
-                  columns="sales"
-                  [transition]="true"
-                  transitionDuration="1000"
-                  transitionDelay="3000">
-    </td-chart-bar>
-</td-charts>
-</div>
+            <div *ngIf="salesTable && singleSales == true">
+              <td-charts [margin]="90">
+                <td-axis-x [link]="chartBar2" [ticks]="true" [show]="true" [grid]="false"></td-axis-x>
+                <td-axis-y-left [link]="chartBar2" [ticks]="true" [show]="true" [grid]="true"></td-axis-y-left>
+                <td-chart-bar #chartBar2 [colors]="['amber', 'orange']" [data]="salesTable.monthly_sales" [padding]="0.1" bottomAxis="label" columns="sales" [transition]="true" transitionDuration="1000" transitionDelay="3000">
+                </td-chart-bar>
+              </td-charts>
             </div>
-          </md-card>
-    </div>
-    <div flex-gt-xs="40">
-      <md-card>
-        <geo-pane (changed)=changed($event)></geo-pane>
-      </md-card>
-    </div>
+
+            <div *ngIf="salesTable && !singleSales">
+              <td-charts [margin]="90">
+                <td-axis-x [link]="chartBar4" [ticks]="true" [show]="true" [grid]="false"></td-axis-x>
+                <td-axis-y-left [link]="chartBar4" [ticks]="true" [show]="true" [grid]="true"></td-axis-y-left>
+                <td-chart-bar #chartBar4 [colors]="['amber', 'orange']" [data]="salesTable.monthly_sales" [padding]="0.1" bottomAxis="label" columns="sales" [transition]="true" transitionDuration="1000" transitionDelay="3000">
+                </td-chart-bar>
+              </td-charts>
+            </div>
+          </div>
+        </md-card>
+      </div>
+      <div flex-gt-xs="40">
+        <md-card>
+          <geo-pane (changed)=changed($event)></geo-pane>
+        </md-card>
+      </div>
     </div>
     <div layout="column" layout-gt-sm="row">
-    <div flex-gt-sm="100">
+      <div flex-gt-sm="100">
         <md-card>
-        <div layout="row" layout-align="start center" class="pad-left-sm pad-right-sm">
-          <span *ngIf="!searchBox.searchVisible" class="push-left-sm">
-            <span class="md-title">Manger Sales</span>
-          </span>
-          <td-search-box #searchBox backIcon="arrow_back" class="push-right-sm" placeholder="Search here" (searchDebounce)="search($event)" flex>
-          </td-search-box>
-        </div>
+          <div layout="row" layout-align="start center" class="pad-left-sm pad-right-sm">
+            <span *ngIf="!searchBox.searchVisible" class="push-left-sm">
+            <span class="md-title">Sales Detail</span>
+            </span>
+            <td-search-box #searchBox backIcon="arrow_back" class="push-right-sm" placeholder="Search here" (searchDebounce)="search($event)" flex>
+            </td-search-box>
+          </div>
 
-        <md-divider></md-divider>
-        <td-data-table
-          [data]="filteredData"
-          [columns]="columns"
-          [sortable]="true"
-          [sortBy]="sales"
-          [selectable]=false
-          [sortOrder]="sortOrder"
-          (sortChange)="sort($event)">
-          <template tdDataTableTemplate="picture" let-value="value" let-row="row" let-column="column">
+          <md-divider></md-divider>
+          <td-data-table [data]="filteredData" [columns]="columns" [sortable]="true" [sortBy]="sales" [selectable]=false [sortOrder]="sortOrder" (sortChange)="sort($event)">
+            <template tdDataTableTemplate="picture" let-value="value" let-row="row" let-column="column">
             <div layout="row">
               <span flex><img src="{{value}}"></span>
             </div>
           </template>
-        </td-data-table>
-        <td-paging-bar [pageSizes]="[5, 10, 15, 20]" [total]="filteredTotal" (change)="page($event)"></td-paging-bar>
-      </md-card>
+          </td-data-table>
+          <td-paging-bar [pageSizes]="[5, 10, 15, 20]" [total]="filteredTotal" (change)="page($event)"></td-paging-bar>
+        </md-card>
+      </div>
     </div>
   </div>
-  </div>
 
-<td-layout-footer>
-  <div layout="row" layout-align="start center">
-    <span class="md-caption">Copyright &copy; 2016 Teradata. All rights reserved</span>
-    <span flex></span>
-    <md-icon class="md-icon-ux" svgIcon="assets:teradata-ux"></md-icon>
-  </div>
-</td-layout-footer>
+  <td-layout-footer>
+    <div layout="row" layout-align="start center">
+      <span class="md-caption">Copyright &copy; 2016 Teradata. All rights reserved</span>
+      <span flex></span>
+      <md-icon class="md-icon-ux" svgIcon="assets:teradata-ux"></md-icon>
+    </div>
+  </td-layout-footer>
 </td-layout-nav>
